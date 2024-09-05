@@ -1,10 +1,10 @@
 import { StyleSheet, useWindowDimensions, View } from 'react-native';
-import { ActiveLink } from '../../component/ActiveLink';
-import { Header } from '../../component/Header';
-import { NavLink } from '../../component/NavLink';
-import { wallpaper } from '../../constants/images';
+import { ActiveLink } from '../component/ActiveLink';
+import { Header } from '../component/Header';
+import { NavLink } from '../component/NavLink';
+import { prayer } from '../constants/images';
 
-export default function Wallpaper() {
+export default function Prayer() {
     const { width } = useWindowDimensions();
 
     const isMobile = width < 600
@@ -17,9 +17,9 @@ export default function Wallpaper() {
 
             }}>
                 <NavLink href='/' name="Home" />
-                <NavLink href='./prayer' name='Prayer' />
-                <ActiveLink href='./wallpapers' name='Wallpapers' icon={wallpaper} />
-                <NavLink href='./ebooks' name='e-Books' />
+                <ActiveLink href='prayer' name='Prayer' icon={prayer} />
+                <NavLink href='wallpapers' name='Wallpapers' />
+                <NavLink href='ebooks' name='e-Books' />
             </View>
         )
     }
@@ -46,4 +46,3 @@ const styles = StyleSheet.create({
         margin: 15
     }
 });
-

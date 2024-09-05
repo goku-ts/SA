@@ -108,8 +108,10 @@ export default function ContentCard({
 
                         </View>
                         <Link href={{
-                            pathname: `${path}`,
-
+                            pathname: `post/${path}`,
+                            params: {
+                                id: data?.id
+                            }
                         }} asChild>
                             <Pressable
                                 // onPress={() => router.push({

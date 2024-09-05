@@ -37,6 +37,9 @@ export default function Home() {
     const isMobile = width < 700
     const bigScreen = width > 1000
 
+    let sortedData = DATA.sort((a, b) => DATA.indexOf(b) - DATA.indexOf(a))
+
+
 
     const NavBar = () => {
         return (
@@ -47,9 +50,9 @@ export default function Home() {
                 marginBottom: 20
             }}>
                 <ActiveLink href='/' name="Home" icon={home} />
-                <NavLink href='./pages/prayer' name='Prayer' />
-                <NavLink href='./pages/wallpapers' name='Wallpapers' />
-                <NavLink href='./pages/ebooks' name='e -Books' />
+                <NavLink href='prayer' name='Prayer' />
+                <NavLink href='wallpapers' name='Wallpapers' />
+                <NavLink href='ebooks' name='e -Books' />
             </View>
         )
     }
@@ -85,7 +88,7 @@ export default function Home() {
 
                         // flexDirection: isMobile ? "column" : "row",
                     }}>
-                        {DATA && DATA.map((item) => {
+                        {DATA && sortedData.map((item) => {
                             return (
                                 <ContentCard
                                     image={item.image}
@@ -98,7 +101,7 @@ export default function Home() {
                                     title={`${item.title}`}
                                     date={`${item.date}`}
                                     hPadding={bigScreen ? width / 5 : isMobile ? 10 : width / 20}
-                                    path={`./pages/post/${item.id}`}
+                                    path={`${item.id}`}
                                     data={item}
                                 />
                             )

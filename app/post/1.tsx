@@ -1,21 +1,24 @@
 import { useLocalSearchParams } from 'expo-router';
 import React from 'react';
 import { Image, ScrollView, StyleSheet, Text, useWindowDimensions, View } from 'react-native';
-import { ActiveLink } from '../../../component/ActiveLink';
-import AppText from '../../../component/AppText';
-import { Header } from '../../../component/Header';
-import { NavLink } from '../../../component/NavLink';
-import RegularText from '../../../component/RegularText';
-import { blog, home } from '../../../constants/images';
+import { ActiveLink } from '../../component/ActiveLink';
+import AppText from '../../component/AppText';
+import { Header } from '../../component/Header';
+import { NavLink } from '../../component/NavLink';
+import RegularText from '../../component/RegularText';
+import { home } from '../../constants/images';
 
-import { COLORS } from '../../../constants/theme';
-import { DATA } from '../../../data/Data';
+import { COLORS } from '../../constants/theme';
+import { DATA } from '../../data/Data';
 
 export default function Details() {
-    const { width, height } = useWindowDimensions();
-    const { id } = useLocalSearchParams();
 
-    const post = parseInt(id as string)
+
+    const { width, height } = useWindowDimensions();
+    const params = useLocalSearchParams();
+
+    const { id } = params
+    let post = parseInt(id as string)
 
     const isMobile = width < 600
     const bigScreen = width > 1000
@@ -50,7 +53,7 @@ export default function Details() {
                     <NavBar />
                 </View>
                 <View style={styles.postContainer}>
-                    <Image source={blog} resizeMode='cover' style={{
+                    <Image source={DATA[post - 1]?.image} resizeMode='cover' style={{
                         width: bigScreen ? width * 0.4 : isMobile ? width * 0.85 : width * 0.85,
                         height: bigScreen ? height * 0.3 : isMobile ? height * 0.3 : height * 0.3,
                         borderRadius: 10
