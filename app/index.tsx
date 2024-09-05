@@ -37,7 +37,6 @@ export default function Home() {
     const isMobile = width < 700
     const bigScreen = width > 1000
 
-    let sortedData = DATA.sort((a, b) => DATA.indexOf(b) - DATA.indexOf(a))
 
 
 
@@ -88,7 +87,7 @@ export default function Home() {
 
                         // flexDirection: isMobile ? "column" : "row",
                     }}>
-                        {DATA && sortedData.map((item) => {
+                        {DATA && DATA.map((item) => {
                             return (
                                 <ContentCard
                                     image={item.image}
