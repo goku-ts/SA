@@ -1,6 +1,3 @@
-import { useFonts } from 'expo-font';
-import { SplashScreen } from 'expo-router';
-import { useEffect } from 'react';
 import { ScrollView, StyleSheet, useWindowDimensions, View } from 'react-native';
 
 import { ActiveLink } from '../component/ActiveLink';
@@ -9,27 +6,12 @@ import { Header } from '../component/Header';
 import { home } from '../constants/images';
 
 import { NavLink } from '../component/NavLink';
+import loadFont from '../constants/loadFont';
 import { POST } from '../data/Data';
 
 export default function Home() {
 
-    (function () {
-        const [loaded, error] = useFonts({
-            'Montserrat-Regular': require('../assets/fonts/Montserrat-Regular.ttf'),
-            'Montserrat-SemiBold': require('../assets/fonts/Montserrat-SemiBold.ttf'),
-        });
-
-        useEffect(() => {
-            if (loaded || error) {
-                SplashScreen.hideAsync();
-            }
-        }, [loaded, error]);
-
-        if (!loaded && !error) {
-            return null;
-        }
-
-    })()
+    loadFont();
 
     const { width } = useWindowDimensions();
 
@@ -49,8 +31,8 @@ export default function Home() {
             }}>
                 <ActiveLink href='/' name="Home" icon={home} />
                 <NavLink href='prayer' name='Prayer' />
-                {/* <NavLink href='wallpapers' name='Wallpapers' />
-                <NavLink href='ebooks' name='e -Books' /> */}
+                <NavLink href='ebooks' name='Books' />
+                <NavLink href='wallpapers' name='Wallpapers' />
             </View>
         )
     }

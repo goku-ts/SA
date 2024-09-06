@@ -1,12 +1,22 @@
-import { StyleSheet, useWindowDimensions, View } from 'react-native';
+import { ScrollView, StyleSheet, useWindowDimensions, View } from 'react-native';
 import { ActiveLink } from '../component/ActiveLink';
+import BookCard from '../component/BookCard';
 import { Header } from '../component/Header';
 import { NavLink } from '../component/NavLink';
 import { ebook } from '../constants/images';
+import loadFont from '../constants/loadFont';
+import { BOOKS } from '../data/Data';
 
 export default function Ebooks() {
+
+
+
+    loadFont();
+
     const { width } = useWindowDimensions();
+
     const isMobile = width < 600
+    const bigScreen = width > 1000
     const NavBar = () => {
 
 
@@ -19,20 +29,63 @@ export default function Ebooks() {
             }}>
                 <NavLink href='/' name="Home" />
                 <NavLink href='prayer' name='Prayer' />
+                <ActiveLink href='ebooks' name='Books' icon={ebook} />
                 <NavLink href='wallpapers' name='Wallpapers' />
-                <ActiveLink href='ebooks' name='e-Books' icon={ebook} />
             </View>
         )
     }
 
     return (
         <View style={[styles.container, {
-            paddingHorizontal: isMobile ? 10 : width / 8
+            paddingHorizontal: bigScreen ? width / 5 : isMobile ? 10 : width / 20
         }]}>
-            <View style={styles.nav_area}>
-                <Header />
-                <NavBar />
-            </View>
+            <ScrollView
+                showsVerticalScrollIndicator={false}
+            >
+                <View style={styles.nav_area}>
+                    <Header />
+                    <NavBar />
+                </View>
+
+                <View style={{
+                    alignItems: "center",
+                }}>
+
+                    {/* <QouteCard
+                        text='But you will receive power when the Holy Spirit
+                        comes on you; and you will be my witnesses in Jerusalem,
+                        and in all Judea and Samaria, and to the ends of the earth.
+                        '
+                        reference=' - Romans 1:8'
+                        h_padding={bigScreen ? width / 5 : isMobile ? 10 : width / 20}
+                    /> */}
+                    <View style={{
+
+                        // flexDirection: isMobile ? "column" : "row",
+                    }}>
+                        {BOOKS && BOOKS.map((item) => {
+                            return (
+                                <BookCard
+                                    hPadding={bigScreen ? width / 5 : isMobile ? 10 : width / 20}
+                                    size={isMobile ? undefined : width - 15}
+
+                                    key={item.id}
+                                    title={item.title}
+                                    description={item.description}
+                                    author={item.author}
+                                    image={item.image}
+                                    desktop={isMobile ? false : true}
+                                />
+
+                            )
+                        })}
+
+                    </View>
+                </View>
+                <View style={{
+                    height: 100
+                }} />
+            </ScrollView>
         </View>
     );
 }

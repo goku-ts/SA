@@ -5,6 +5,7 @@ import { Header } from '../component/Header';
 import { NavLink } from '../component/NavLink';
 import PrayerCard from '../component/PrayerCard';
 import { prayer } from '../constants/images';
+import loadFont from '../constants/loadFont';
 import { PRAYERS } from '../data/Data';
 
 export default function Prayer() {
@@ -16,6 +17,9 @@ export default function Prayer() {
 
 
     const NavBar = () => {
+
+        loadFont();
+
         return (
             <View style={{
                 flexDirection: "row",
@@ -25,8 +29,8 @@ export default function Prayer() {
             }}>
                 <NavLink href='/' name="Home" />
                 <ActiveLink href='prayer' name='Prayer' icon={prayer} />
-                {/* <NavLink href='wallpapers' name='Wallpapers' />
-                <NavLink href='ebooks' name='e-Books' /> */}
+                <NavLink href='ebooks' name='Books' />
+                <NavLink href='wallpapers' name='Wallpapers' />
             </View>
         )
     }

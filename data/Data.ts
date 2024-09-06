@@ -1,3 +1,4 @@
+import { lost_art_of_intersession } from "../app/books/images/bookImages";
 import { blog, blog1 } from "../constants/images";
 
 
@@ -149,4 +150,21 @@ His love is my trademark !
 
 
 
+]
+
+export const BOOKS = [
+    {
+        "id": 1,
+        "title": `### **The Lost Art Of Intersession**`,
+        "description": `Deep meditative prayer for anxiety and fear, rooted in scripture.`,
+        "author": "James W. Goll",
+        "image": lost_art_of_intersession
+    },
+    {
+        "id": 2,
+        "title": `### **The Descerner**`,
+        "description": `Deep meditative prayer for anxiety and fear, rooted in scripture.`,
+        "author": "James W. Goll",
+        "image": lost_art_of_intersession
+    },
 ]

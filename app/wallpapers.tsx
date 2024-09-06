@@ -3,8 +3,12 @@ import { ActiveLink } from '../component/ActiveLink';
 import { Header } from '../component/Header';
 import { NavLink } from '../component/NavLink';
 import { wallpaper } from '../constants/images';
+import loadFont from '../constants/loadFont';
 
 export default function Wallpaper() {
+
+    loadFont();
+
     const { width } = useWindowDimensions();
 
     const isMobile = width < 600
@@ -18,8 +22,8 @@ export default function Wallpaper() {
             }}>
                 <NavLink href='/' name="Home" />
                 <NavLink href='prayer' name='Prayer' />
+                <NavLink href='ebooks' name='Books' />
                 <ActiveLink href='wallpapers' name='Wallpapers' icon={wallpaper} />
-                <NavLink href='ebooks' name='e-Books' />
             </View>
         )
     }

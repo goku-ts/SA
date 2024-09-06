@@ -1,6 +1,7 @@
 import React from 'react'
 import { Image, StyleSheet, Text, View } from 'react-native'
 import { fire } from '../constants/images'
+import { COLORS } from '../constants/theme'
 import AppText from './AppText'
 
 export const Header = () => {
@@ -20,7 +21,7 @@ export const Header = () => {
                 width: 25,
                 height: 25,
                 marginRight: 3,
-                tintColor: "red",
+                tintColor: COLORS.orange6,
             }} />
             <AppText>
                 <Text style={{

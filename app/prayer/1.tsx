@@ -8,11 +8,13 @@ import { NavLink } from '../../component/NavLink';
 import RegularText from '../../component/RegularText';
 
 import Content from '../../component/Content';
+import loadFont from '../../constants/loadFont';
 import { COLORS } from '../../constants/theme';
 import { PRAYERS } from '../../data/Data';
 
 export default function Details() {
 
+    loadFont();
 
     const { width, height } = useWindowDimensions();
     const params = useLocalSearchParams();
@@ -34,8 +36,8 @@ export default function Details() {
             }}>
                 <NavLink href='/' name="Home" />
                 <ActiveLink href='../prayer' name='Prayer' />
-                {/* <NavLink href='../wallpapers' name='Wallpapers' />
-                <NavLink href='../ebooks' name='e-Books' /> */}
+                <NavLink href='../ebooks' name='Books' />
+                <NavLink href='../wallpapers' name='Wallpapers' />
             </View>
         )
     }

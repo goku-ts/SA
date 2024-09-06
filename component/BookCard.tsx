@@ -1,17 +1,15 @@
 import { Link } from 'expo-router';
 import React from 'react';
 import { Image, Pressable, StyleSheet, Text, useWindowDimensions, View } from 'react-native';
-import { arrow_rignt } from '../constants/images';
 import { COLORS } from '../constants/theme';
 
 import AppText from './AppText';
 import Content from './Content';
 
-export default function ContentCard({
+export default function BookCard({
     title,
     description,
     author,
-    date,
     size,
     ImageSize,
     hPadding,
@@ -23,7 +21,6 @@ export default function ContentCard({
     title: string,
     description: string,
     author: string,
-    date: string,
     size?: number,
     ImageSize?: number,
     hPadding?: number,
@@ -39,9 +36,10 @@ export default function ContentCard({
     return (
         <View>
             <View style={{
-                flexDirection: desktop ? "row" : "column",
+
+                flexDirection: desktop ? "row" : "row",
                 backgroundColor: "#FCFBF4",
-                // height: 150,
+                //height: desktop ? 150 : null,
                 width: size ? size : width - 30,
                 // borderWidth: 1,
                 borderRadius: 10,
@@ -51,12 +49,17 @@ export default function ContentCard({
                 paddingHorizontal: hPadding
             }}>
                 <Image source={image} style={{
-                    resizeMode: "cover",
-                    width: desktop ? 350 : ImageSize ? ImageSize : width - 50,
-                    height: desktop ? 250 : height / 5,
-                    borderRadius: 10
+                    resizeMode: "contain",
+                    width: desktop ? 250 : ImageSize ? ImageSize : width / 2 - 40,
+                    height: desktop ? 350 : height / 3,
+                    borderRadius: 3
                 }} />
-                <View style={{ flex: 1, justifyContent: "space-between" }}>
+                <View style={{
+                    flex: 1,
+                    //justifyContent: "space-between",
+                    //backgroundColor: "red",
+                    paddingLeft: 20
+                }}>
                     <View style={{
                         padding: 5,
                         marginTop: 5,
@@ -64,13 +67,33 @@ export default function ContentCard({
                     }}>
                         <View style={{
                             marginBottom: 5,
-
                         }}>
                             <AppText>
                                 <Content>
                                     {title}
                                 </Content>
                             </AppText>
+                        </View>
+
+                        <View
+                            style={{
+                                alignItems: "flex-start",
+                                //marginLeft: 5,
+                                padding: 5,
+                                //marginTop: 5,
+                                paddingLeft: desktop ? 0 : 0,
+
+                            }}>
+                            <View style={styles.author}>
+                                <AppText>
+                                    <Text style={{
+                                        fontFamily: "Montserrat-Regular",
+                                        fontSize: 13,
+                                        color: COLORS.gray9
+                                    }}>{author}</Text>
+                                </AppText>
+                            </View>
+
                         </View>
 
                         <AppText>
@@ -87,12 +110,12 @@ export default function ContentCard({
                         justifyContent: "space-between",
                         alignItems: "center",
                         padding: 5,
-                        marginTop: 5,
+                        marginTop: 50,
                         paddingLeft: desktop ? 20 : 0,
                     }}>
-                        <View
+                        {/* <View
                             style={{
-                                flexDirection: "row",
+
                                 alignItems: "center",
                                 //marginLeft: 5,
                                 padding: 5,
@@ -108,17 +131,8 @@ export default function ContentCard({
                                     }}>{author}</Text>
                                 </AppText>
                             </View>
-                            <View style={styles.author}>
-                                <AppText>
-                                    <Text style={{
-                                        fontFamily: "Montserrat-Regular",
-                                        fontSize: 13,
-                                        color: COLORS.gray9
-                                    }}>{date}</Text>
-                                </AppText>
-                            </View>
 
-                        </View>
+                        </View> */}
                         <Link href={{
                             pathname: `post/${path}`,
                             params: {
@@ -126,24 +140,11 @@ export default function ContentCard({
                             }
                         }} asChild>
                             <Pressable
-                                // onPress={() => router.push({
-                                //     pathname: `${path}`,
-                                //     params: {
-                                //         id: data.id,
-                                //         title: data.title,
-                                //         $description: data.description,
-                                //         $author: data.author,
-                                //         $date: data.date,
-                                //         $content: data.content,
-                                //         $image: data.image
-
-                                //     }
-                                // })}
                                 style={{
                                     flexDirection: "row",
                                     justifyContent: "center",
                                     alignItems: "center",
-                                    backgroundColor: COLORS.gray7,
+                                    backgroundColor: COLORS.green1,
                                     height: 30,
                                     padding: 10,
                                     borderRadius: 10
@@ -151,25 +152,21 @@ export default function ContentCard({
 
                                 <AppText>
                                     <Text style={{
-                                        color: COLORS.gray1
-                                    }}>Read More</Text>
+                                        color: COLORS.green9
+                                    }}>Download</Text>
                                 </AppText>
-                                <Image source={arrow_rignt}
+                                {/* <Image source={arrow_rignt}
                                     style={{
                                         height: 15,
                                         width: 15,
                                         tintColor: COLORS.gray1,
                                         marginLeft: 5
-                                    }} />
-
+                                    }} /> */}
                             </Pressable>
                         </Link>
-
                     </View>
                 </View>
             </View>
-
-
         </View>
 
     )
@@ -177,12 +174,11 @@ export default function ContentCard({
 
 const styles = StyleSheet.create({
     author: {
-        marginLeft: 5,
         height: 20,
         alignItems: "center",
         justifyContent: "center",
         padding: 5,
-        backgroundColor: COLORS.green1,
+        backgroundColor: COLORS.orange1,
         marginBottom: 5,
         borderRadius: 5
     }
