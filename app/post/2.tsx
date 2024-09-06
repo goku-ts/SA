@@ -54,6 +54,15 @@ export default function Details() {
                     <NavBar />
                 </View>
                 <View style={styles.postContainer}>
+
+                    <View style={{
+                        marginTop: 10
+                    }}>
+                        <AppText>
+                            {POST[post - 1]?.title}
+                        </AppText>
+                    </View>
+
                     <Image source={POST[post - 1]?.image} resizeMode='cover' style={{
                         width: bigScreen ? width * 0.4 : isMobile ? width * 0.85 : width * 0.85,
                         height: bigScreen ? height * 0.3 : isMobile ? height * 0.3 : height * 0.3,
@@ -77,13 +86,7 @@ export default function Details() {
                         </View>
 
                     </View>
-                    <View style={{
-                        marginTop: 10
-                    }}>
-                        <AppText>
-                            {POST[post - 1]?.title}
-                        </AppText>
-                    </View>
+
 
                     <View style={{
                         marginTop: 10
@@ -121,7 +124,7 @@ const styles = StyleSheet.create({
         alignItems: "center",
         justifyContent: "center",
         padding: 5,
-        backgroundColor: COLORS.gray2,
+        backgroundColor: COLORS.green1,
         marginBottom: 5,
         borderRadius: 5
     }

@@ -1,5 +1,6 @@
 import React from 'react'
-import { StyleSheet, Text, View } from 'react-native'
+import { Image, StyleSheet, Text, View } from 'react-native'
+import { fire } from '../constants/images'
 import AppText from './AppText'
 
 export const Header = () => {
@@ -9,16 +10,22 @@ export const Header = () => {
             alignItems: "center",
             marginBottom: 30
         }}>
-            {/* <Image source={shield} style={{
-                width: 30,
-                height: 30,
+            {/* <Image source={cross} style={{
+                width: 20,
+                height: 20,
                 marginRight: 3,
-                tintColor: "black",
+                tintColor: "orange",
             }} /> */}
+            <Image source={fire} style={{
+                width: 25,
+                height: 25,
+                marginRight: 3,
+                tintColor: "red",
+            }} />
             <AppText>
                 <Text style={{
                     // fontWeight: "bold",
-                    fontSize: 15
+                    fontSize: 17
                 }}>Spirit Army</Text>
             </AppText>
         </View>

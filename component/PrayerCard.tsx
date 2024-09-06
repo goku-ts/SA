@@ -37,7 +37,7 @@ export default function PrayerCard({
     return (
         <TouchableOpacity
             onPress={() => router.push({
-                pathname: `${path}`,
+                pathname: `/prayer/${data.id}`,
                 params: {
                     id: data.id,
 
@@ -46,7 +46,7 @@ export default function PrayerCard({
         >
             <View style={{
                 flexDirection: desktop ? "row" : "column",
-                backgroundColor: COLORS.gray1,
+                backgroundColor: "#FCFBF4",
                 // height: 150,
                 width: size ? size : width - 30,
                 // borderWidth: 1,
@@ -92,9 +92,9 @@ export default function PrayerCard({
                             flexDirection: "row",
                             alignItems: "center",
                             //marginLeft: 5,
-                            padding: 5,
+                            // padding: 5,
                             marginTop: 5,
-                            paddingLeft: desktop ? 20 : 0,
+                            paddingLeft: desktop ? 0 : 0,
                         }}>
                             <View style={styles.author}>
                                 <AppText>
@@ -179,7 +179,7 @@ const styles = StyleSheet.create({
         alignItems: "center",
         justifyContent: "center",
         padding: 5,
-        backgroundColor: COLORS.gray2,
+        backgroundColor: COLORS.green1,
         marginBottom: 5,
         borderRadius: 5
     }

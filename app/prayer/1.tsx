@@ -1,16 +1,15 @@
 import { useLocalSearchParams } from 'expo-router';
 import React from 'react';
-import { Image, ScrollView, StyleSheet, useWindowDimensions, View } from 'react-native';
+import { ScrollView, StyleSheet, useWindowDimensions, View } from 'react-native';
 import { ActiveLink } from '../../component/ActiveLink';
 import AppText from '../../component/AppText';
 import { Header } from '../../component/Header';
 import { NavLink } from '../../component/NavLink';
 import RegularText from '../../component/RegularText';
-import { home } from '../../constants/images';
 
 import Content from '../../component/Content';
 import { COLORS } from '../../constants/theme';
-import { POST } from '../../data/Data';
+import { PRAYERS } from '../../data/Data';
 
 export default function Details() {
 
@@ -33,8 +32,8 @@ export default function Details() {
                 marginTop: 10,
                 marginBottom: 30
             }}>
-                <ActiveLink href='/' name="Home" icon={home} />
-                <NavLink href='../prayer' name='Prayer' />
+                <NavLink href='/' name="Home" />
+                <ActiveLink href='../prayer' name='Prayer' />
                 {/* <NavLink href='../wallpapers' name='Wallpapers' />
                 <NavLink href='../ebooks' name='e-Books' /> */}
             </View>
@@ -47,8 +46,6 @@ export default function Details() {
         }]}>
             <ScrollView showsVerticalScrollIndicator={false}>
 
-
-
                 <View style={styles.nav_area}>
                     <Header />
                     <NavBar />
@@ -57,46 +54,40 @@ export default function Details() {
 
                 <View style={styles.postContainer}>
 
+
                     <View style={{
-                        marginBottom: 30
+                        marginTop: 10
                     }}>
                         <AppText>
-                            {POST[post - 1]?.title}
+                            {PRAYERS[post - 1]?.title}
                         </AppText>
                     </View>
 
-                    <Image source={POST[post - 1]?.image} resizeMode='cover' style={{
-                        width: bigScreen ? width * 0.4 : isMobile ? width * 0.85 : width * 0.85,
-                        height: bigScreen ? height * 0.3 : isMobile ? height * 0.3 : height * 0.3,
-                        borderRadius: 10
-                    }} />
                     <View style={{
                         marginTop: 10,
                         flexDirection: "row",
                     }}>
                         <View style={styles.author}>
                             <RegularText>
-                                {POST[post - 1]?.author}
+                                {PRAYERS[post - 1]?.author}
                             </RegularText>
                         </View>
                         <View style={[styles.author, {
                             marginLeft: 20
                         }]}>
                             <RegularText>
-                                {POST[post - 1]?.date}
+                                {PRAYERS[post - 1]?.date}
                             </RegularText>
                         </View>
 
                     </View>
-
-
 
                     <View style={{
                         marginTop: 10
                     }}>
                         <AppText>
                             <Content>
-                                {POST[post - 1]?.content}
+                                {PRAYERS[post - 1]?.content}
                             </Content>
                         </AppText>
 

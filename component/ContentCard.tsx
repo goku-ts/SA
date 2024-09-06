@@ -39,7 +39,7 @@ export default function ContentCard({
         <View>
             <View style={{
                 flexDirection: desktop ? "row" : "column",
-                backgroundColor: COLORS.gray1,
+                backgroundColor: "#FCFBF4",
                 // height: 150,
                 width: size ? size : width - 30,
                 // borderWidth: 1,
@@ -178,7 +178,7 @@ const styles = StyleSheet.create({
         alignItems: "center",
         justifyContent: "center",
         padding: 5,
-        backgroundColor: COLORS.gray2,
+        backgroundColor: COLORS.green1,
         marginBottom: 5,
         borderRadius: 5
     }

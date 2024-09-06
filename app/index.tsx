@@ -6,7 +6,6 @@ import { ScrollView, StyleSheet, useWindowDimensions, View } from 'react-native'
 import { ActiveLink } from '../component/ActiveLink';
 import ContentCard from '../component/ContentCard';
 import { Header } from '../component/Header';
-import { QouteCard } from '../component/QouteCard';
 import { home } from '../constants/images';
 
 import { NavLink } from '../component/NavLink';
@@ -75,14 +74,14 @@ export default function Home() {
                     alignItems: "center",
                 }}>
 
-                    <QouteCard
+                    {/* <QouteCard
                         text='But you will receive power when the Holy Spirit
                         comes on you; and you will be my witnesses in Jerusalem,
                         and in all Judea and Samaria, and to the ends of the earth.
                         '
                         reference=' - Romans 1:8'
                         h_padding={bigScreen ? width / 5 : isMobile ? 10 : width / 20}
-                    />
+                    /> */}
                     <View style={{
 
                         // flexDirection: isMobile ? "column" : "row",
@@ -124,6 +123,6 @@ const styles = StyleSheet.create({
     },
     nav_area: {
         padding: 15,
-
+        marginBottom: 20
     }
 });

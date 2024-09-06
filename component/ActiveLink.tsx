@@ -5,7 +5,7 @@ import { COLORS } from '../constants/theme'
 import AppText from './AppText'
 
 export const ActiveLink = ({ href, name, icon }:
-    { href: string, name: string, icon: any }) => {
+    { href: string, name: string, icon?: any }) => {
     return (
         <Link href={href} style={{ marginRight: 5 }} asChild>
             <Pressable style={{
@@ -29,7 +29,7 @@ export const ActiveLink = ({ href, name, icon }:
 
                 <AppText>
                     <Text style={{
-                        fontSize: 13,
+                        fontSize: 14,
                         marginRight: 5,
                         marginLeft: 5
                     }}>
