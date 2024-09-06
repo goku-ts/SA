@@ -1,6 +1,7 @@
 import React from 'react'
 import { StyleSheet, View } from 'react-native'
 import Markdown from 'react-native-markdown-display'
+import { COLORS } from '../constants/theme'
 
 export default function Content({ children }: { children: any }) {
     return (
@@ -17,5 +18,9 @@ const markdown = StyleSheet.create({
         fontFamily: "Montserrat-Regular",
         fontSize: 16,
         lineHeight: 22
+    },
+    heading3: {
+        fontFamily: "Montserrat-Regular",
+        color: COLORS.gray7,
     }
 })

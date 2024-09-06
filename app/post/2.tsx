@@ -56,10 +56,12 @@ export default function Details() {
                 <View style={styles.postContainer}>
 
                     <View style={{
-                        marginTop: 10
+                        marginBottom: 30
                     }}>
                         <AppText>
-                            {POST[post - 1]?.title}
+                            <Content>
+                                {POST[post - 1]?.title}
+                            </Content>
                         </AppText>
                     </View>
 

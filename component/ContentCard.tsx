@@ -5,6 +5,7 @@ import { arrow_rignt } from '../constants/images';
 import { COLORS } from '../constants/theme';
 
 import AppText from './AppText';
+import Content from './Content';
 
 export default function ContentCard({
     title,
@@ -65,7 +66,9 @@ export default function ContentCard({
 
                         }}>
                             <AppText>
-                                <Text>{title}</Text>
+                                <Content>
+                                    {title}
+                                </Content>
                             </AppText>
                         </View>
 

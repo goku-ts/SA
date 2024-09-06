@@ -61,7 +61,9 @@ export default function Details() {
                         marginBottom: 30
                     }}>
                         <AppText>
-                            {POST[post - 1]?.title}
+                            <Content>
+                                {POST[post - 1]?.title}
+                            </Content>
                         </AppText>
                     </View>
 

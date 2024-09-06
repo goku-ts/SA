@@ -4,7 +4,7 @@ import { blog, blog1 } from "../constants/images";
 export const POST = [
     {
         "id": 1,
-        "title": `"Second in my love..." : Living in the Father's love`,
+        "title": ` ### **"Second in my love..." : Living in the Father's love**`,
         "description": `Sometimes, accepting what we feel we don't deserve, can make us feel unworthy and guilty.
 God's love however, is beyond our understanding. I believe it is a mystery that cannot be explained. When we feel most undeserving of His love...`,
         "author": "HGb",
@@ -39,7 +39,7 @@ His love is my trademark !
     },
     {
         "id": 2,
-        "title": `"Abide in my love..." : Living in the Father's love`,
+        "title": `### **"Abide in my love..." : Living in the Father's love**`,
         "description": `Sometimes, accepting what we feel we don't deserve, can make us feel unworthy and guilty.
 God's love however, is beyond our understanding. I believe it is a mystery that cannot be explained. When we feel most undeserving of His love...`,
         "author": "HGb",
@@ -82,7 +82,7 @@ His love is my trademark !
 export const PRAYERS = [
     {
         "id": 1,
-        "title": `Payer for Axiety and Fear`,
+        "title": `### **Prayer for Axiety and Fear**`,
         "description": `Deep meditative prayer for anxiety and fear, rooted in scripture.`,
         "author": "HGb",
         "date": "July 2, 2024",
@@ -115,7 +115,7 @@ His love is my trademark !
     },
     {
         "id": 2,
-        "title": `Payer for Axiety and Fear`,
+        "title": `### **Prayer for Axiety and Fear**`,
         "description": `Deep meditative prayer for anxiety and fear, rooted in scripture.`,
         "author": "HGb",
         "date": "July 2, 2024",

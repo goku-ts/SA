@@ -4,6 +4,7 @@ import { COLORS } from '../constants/theme';
 
 import { router } from 'expo-router';
 import AppText from './AppText';
+import Content from './Content';
 
 export default function PrayerCard({
     title,
@@ -67,7 +68,9 @@ export default function PrayerCard({
 
                         }}>
                             <AppText>
-                                <Text>{title}</Text>
+                                <Content>
+                                    {title}
+                                </Content>
                             </AppText>
                         </View>
 

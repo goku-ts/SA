@@ -59,7 +59,9 @@ export default function Details() {
                         marginTop: 10
                     }}>
                         <AppText>
-                            {PRAYERS[post - 1]?.title}
+                            <Content>
+                                {PRAYERS[post - 1]?.title}
+                            </Content>
                         </AppText>
                     </View>
 
