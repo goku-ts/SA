@@ -1,12 +1,11 @@
-import { Link } from 'expo-router';
 import React from 'react';
-import { Image, Pressable, StyleSheet, Text, useWindowDimensions, View } from 'react-native';
-import { arrow_rignt } from '../constants/images';
+import { StyleSheet, Text, TouchableOpacity, useWindowDimensions, View } from 'react-native';
 import { COLORS } from '../constants/theme';
 
+import { router } from 'expo-router';
 import AppText from './AppText';
 
-export default function ContentCard({
+export default function PrayerCard({
     title,
     description,
     author,
@@ -36,7 +35,15 @@ export default function ContentCard({
 
 
     return (
-        <View>
+        <TouchableOpacity
+            onPress={() => router.push({
+                pathname: `${path}`,
+                params: {
+                    id: data.id,
+
+                }
+            })}
+        >
             <View style={{
                 flexDirection: desktop ? "row" : "column",
                 backgroundColor: COLORS.gray1,
@@ -49,11 +56,6 @@ export default function ContentCard({
                 marginTop: 20,
                 paddingHorizontal: hPadding
             }}>
-                <Image source={image} style={{
-                    width: desktop ? 350 : ImageSize ? ImageSize : width - 50,
-                    height: desktop ? 250 : height / 5,
-                    borderRadius: 10
-                }} />
                 <View style={{ flex: 1, justifyContent: "space-between" }}>
                     <View style={{
                         padding: 5,
@@ -86,15 +88,14 @@ export default function ContentCard({
                         marginTop: 5,
                         paddingLeft: desktop ? 20 : 0,
                     }}>
-                        <View
-                            style={{
-                                flexDirection: "row",
-                                alignItems: "center",
-                                //marginLeft: 5,
-                                padding: 5,
-                                marginTop: 5,
-                                paddingLeft: desktop ? 20 : 0,
-                            }}>
+                        <View style={{
+                            flexDirection: "row",
+                            alignItems: "center",
+                            //marginLeft: 5,
+                            padding: 5,
+                            marginTop: 5,
+                            paddingLeft: desktop ? 20 : 0,
+                        }}>
                             <View style={styles.author}>
                                 <AppText>
                                     <Text style={{
@@ -115,7 +116,7 @@ export default function ContentCard({
                             </View>
 
                         </View>
-                        <Link href={{
+                        {/* <Link href={{
                             pathname: `post/${path}`,
                             params: {
                                 id: data?.id
@@ -140,7 +141,7 @@ export default function ContentCard({
                                     justifyContent: "center",
                                     alignItems: "center",
                                     backgroundColor: COLORS.gray7,
-                                    height: 30,
+                                    height: 25,
                                     padding: 10,
                                     borderRadius: 10
                                 }}>
@@ -159,14 +160,14 @@ export default function ContentCard({
                                     }} />
 
                             </Pressable>
-                        </Link>
+                        </Link> */}
 
                     </View>
                 </View>
             </View>
 
 
-        </View>
+        </TouchableOpacity>
 
     )
 }

@@ -10,7 +10,7 @@ import { QouteCard } from '../component/QouteCard';
 import { home } from '../constants/images';
 
 import { NavLink } from '../component/NavLink';
-import { DATA } from '../data/Data';
+import { POST } from '../data/Data';
 
 export default function Home() {
 
@@ -50,8 +50,8 @@ export default function Home() {
             }}>
                 <ActiveLink href='/' name="Home" icon={home} />
                 <NavLink href='prayer' name='Prayer' />
-                <NavLink href='wallpapers' name='Wallpapers' />
-                <NavLink href='ebooks' name='e -Books' />
+                {/* <NavLink href='wallpapers' name='Wallpapers' />
+                <NavLink href='ebooks' name='e -Books' /> */}
             </View>
         )
     }
@@ -87,19 +87,19 @@ export default function Home() {
 
                         // flexDirection: isMobile ? "column" : "row",
                     }}>
-                        {DATA && DATA.map((item) => {
+                        {POST && POST.map((item) => {
                             return (
                                 <ContentCard
                                     image={item.image}
                                     desktop={isMobile ? false : true}
-                                    ImageSize={isMobile ? undefined : width - 35}
+                                    hPadding={bigScreen ? width / 5 : isMobile ? 10 : width / 20}
                                     size={isMobile ? undefined : width - 15}
+                                    ImageSize={isMobile ? undefined : width - 35}
                                     key={item.id}
                                     author={item.author}
                                     description={`${item.description}`}
                                     title={`${item.title}`}
                                     date={`${item.date}`}
-                                    hPadding={bigScreen ? width / 5 : isMobile ? 10 : width / 20}
                                     path={`${item.id}`}
                                     data={item}
                                 />

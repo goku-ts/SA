@@ -1,6 +1,6 @@
 import { useLocalSearchParams } from 'expo-router';
 import React from 'react';
-import { Image, ScrollView, StyleSheet, Text, useWindowDimensions, View } from 'react-native';
+import { Image, ScrollView, StyleSheet, useWindowDimensions, View } from 'react-native';
 import { ActiveLink } from '../../component/ActiveLink';
 import AppText from '../../component/AppText';
 import { Header } from '../../component/Header';
@@ -8,8 +8,9 @@ import { NavLink } from '../../component/NavLink';
 import RegularText from '../../component/RegularText';
 import { home } from '../../constants/images';
 
+import Content from '../../component/Content';
 import { COLORS } from '../../constants/theme';
-import { DATA } from '../../data/Data';
+import { POST } from '../../data/Data';
 
 export default function Details() {
 
@@ -34,8 +35,8 @@ export default function Details() {
             }}>
                 <ActiveLink href='/' name="Home" icon={home} />
                 <NavLink href='../prayer' name='Prayer' />
-                <NavLink href='../wallpapers' name='Wallpapers' />
-                <NavLink href='../ebooks' name='e-Books' />
+                {/* <NavLink href='../wallpapers' name='Wallpapers' />
+                <NavLink href='../ebooks' name='e-Books' /> */}
             </View>
         )
     }
@@ -53,7 +54,7 @@ export default function Details() {
                     <NavBar />
                 </View>
                 <View style={styles.postContainer}>
-                    <Image source={DATA[post - 1]?.image} resizeMode='cover' style={{
+                    <Image source={POST[post - 1]?.image} resizeMode='cover' style={{
                         width: bigScreen ? width * 0.4 : isMobile ? width * 0.85 : width * 0.85,
                         height: bigScreen ? height * 0.3 : isMobile ? height * 0.3 : height * 0.3,
                         borderRadius: 10
@@ -64,14 +65,14 @@ export default function Details() {
                     }}>
                         <View style={styles.author}>
                             <RegularText>
-                                {DATA[post - 1]?.author}
+                                {POST[post - 1]?.author}
                             </RegularText>
                         </View>
                         <View style={[styles.author, {
                             marginLeft: 20
                         }]}>
                             <RegularText>
-                                {DATA[post - 1]?.date}
+                                {POST[post - 1]?.date}
                             </RegularText>
                         </View>
 
@@ -80,22 +81,20 @@ export default function Details() {
                         marginTop: 10
                     }}>
                         <AppText>
-                            {DATA[post - 1]?.title}
+                            {POST[post - 1]?.title}
                         </AppText>
                     </View>
 
-
-                    {DATA[post - 1]?.content.map((item) => <View key={item.id} style={{
+                    <View style={{
                         marginTop: 10
                     }}>
                         <AppText>
-                            <Text style={{
-                                fontFamily: "Montserrat-Regular",
-                            }}>
-                                {item.paragraph}
-                            </Text>
+                            <Content>
+                                {POST[post - 1]?.content}
+                            </Content>
                         </AppText>
-                    </View>)}
+
+                    </View>
                 </View>
                 <View style={{
                     height: 100
