@@ -1,12 +1,13 @@
-import { Link } from 'expo-router';
 import React from 'react';
 import { Image, Pressable, StyleSheet, Text, useWindowDimensions, View } from 'react-native';
 import { COLORS } from '../constants/theme';
 
+import { Link } from 'expo-router';
 import AppText from './AppText';
 import Content from './Content';
 
 export default function BookCard({
+    url,
     title,
     description,
     author,
@@ -18,6 +19,7 @@ export default function BookCard({
     data,
     image
 }: {
+    url: string,
     title: string,
     description: string,
     author: string,
@@ -133,12 +135,8 @@ export default function BookCard({
                             </View>
 
                         </View> */}
-                        <Link href={{
-                            pathname: `post/${path}`,
-                            params: {
-                                id: data?.id
-                            }
-                        }} asChild>
+
+                        <Link href={url} asChild>
                             <Pressable
                                 style={{
                                     flexDirection: "row",
@@ -164,6 +162,8 @@ export default function BookCard({
                                     }} /> */}
                             </Pressable>
                         </Link>
+
+
                     </View>
                 </View>
             </View>

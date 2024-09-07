@@ -68,7 +68,7 @@ export default function Ebooks() {
                                 <BookCard
                                     hPadding={bigScreen ? width / 5 : isMobile ? 10 : width / 20}
                                     size={isMobile ? undefined : width - 15}
-
+                                    url={item.download_url}
                                     key={item.id}
                                     title={item.title}
                                     description={item.description}

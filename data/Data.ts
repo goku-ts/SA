@@ -1,4 +1,5 @@
 import { lost_art_of_intersession } from "../app/books/images/bookImages";
+import { wp } from "../app/wallpapers/images/wallpaperImages";
 import { blog, blog1 } from "../constants/images";
 
 
@@ -158,13 +159,38 @@ export const BOOKS = [
         "title": `### **The Lost Art Of Intersession**`,
         "description": `Deep meditative prayer for anxiety and fear, rooted in scripture.`,
         "author": "James W. Goll",
-        "image": lost_art_of_intersession
+        "image": lost_art_of_intersession,
+        "download_url": "https://drive.google.com/uc?export=download&id=1KmoPCO8AqzhwF9VXvmkx1a2gjZv4oyDx"
     },
     {
         "id": 2,
         "title": `### **The Descerner**`,
         "description": `Deep meditative prayer for anxiety and fear, rooted in scripture.`,
         "author": "James W. Goll",
-        "image": lost_art_of_intersession
+        "image": lost_art_of_intersession,
+        "download_url": "https://drive.google.com/uc?export=download&id=1KmoPCO8AqzhwF9VXvmkx1a2gjZv4oyDx"
+    },
+]
+
+export const WALLPAPERS = [
+    {
+        "id": 1,
+        "image": wp,
+        "download_url": "https://drive.google.com/uc?export=download&id=1foIhV7YPbRnzquiblxIMKFz9UOp-RV2F"
+    },
+    {
+        "id": 2,
+        "image": wp,
+        "download_url": "https://drive.google.com/uc?export=download&id=1foIhV7YPbRnzquiblxIMKFz9UOp-RV2F"
+    },
+    {
+        "id": 3,
+        "image": wp,
+        "download_url": "https://drive.google.com/uc?export=download&id=1foIhV7YPbRnzquiblxIMKFz9UOp-RV2F"
+    },
+    {
+        "id": 4,
+        "image": wp,
+        "download_url": "https://drive.google.com/uc?export=download&id=1foIhV7YPbRnzquiblxIMKFz9UOp-RV2F"
     },
 ]
