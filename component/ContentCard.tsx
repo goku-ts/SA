@@ -46,7 +46,7 @@ export default function ContentCard({
       style={{
         flexDirection: desktop ? "row" : "column",
         backgroundColor: "#FCFBF4",
-        // height: 150,
+        //height: 200,
         //width: size ? size : width - 30,
         // borderWidth: 1,
         borderRadius: 10,
@@ -60,8 +60,8 @@ export default function ContentCard({
         source={image}
         style={{
           resizeMode: "cover",
-          width: desktop ? 350 : ImageSize ? ImageSize : width - 50,
-          height: desktop ? 250 : height / 5,
+          width: desktop ? 250 : ImageSize ? ImageSize : width - 50,
+          height: desktop ? 180 : height / 5,
           borderRadius: 10,
         }}
       />
@@ -100,9 +100,9 @@ export default function ContentCard({
             flexDirection: "row",
             justifyContent: "space-between",
             alignItems: "center",
-            padding: 5,
-            marginTop: 5,
-            paddingLeft: desktop ? 20 : 0,
+            //padding: 5,
+            //marginTop: 5,
+            paddingLeft: desktop ? 0 : 0,
           }}
         >
           <View
@@ -173,6 +173,7 @@ export default function ContentCard({
                 height: 30,
                 padding: 10,
                 borderRadius: 10,
+                marginRight: 20
               }}
             >
               <AppText>

@@ -14,6 +14,6 @@ const styles = StyleSheet.create({
     app_text: {
         fontFamily: "Montserrat-SemiBold",
         color: COLORS.gray7,
-        fontSize: 15
+        fontSize: 14
     }
 })

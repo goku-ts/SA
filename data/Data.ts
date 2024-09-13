@@ -8,7 +8,7 @@ export const POST = [
         "id": 1,
         "title": ` ### **"Second in my love..." : Living in the Father's love**`,
         "description": `Sometimes, accepting what we feel we don't deserve, can make us feel unworthy and guilty.
-God's love however, is beyond our understanding. I believe it is a mystery that cannot be explained. When we feel most undeserving of His love...`,
+God's love however, is beyond our understanding. I believe it is a mystery that cannot be explained...`,
         "author": "HGb",
         "date": "July 2, 2024",
         "content": `
@@ -43,7 +43,7 @@ His love is my trademark !
         "id": 2,
         "title": `### **"Abide in my love..." : Living in the Father's love**`,
         "description": `Sometimes, accepting what we feel we don't deserve, can make us feel unworthy and guilty.
-God's love however, is beyond our understanding. I believe it is a mystery that cannot be explained. When we feel most undeserving of His love...`,
+God's love however, is beyond our understanding. I believe it is a mystery that cannot be explained...`,
         "author": "HGb",
         "date": "July 2, 2024",
         "content": `

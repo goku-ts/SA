@@ -60,8 +60,8 @@ export default function BookCard({
           source={image}
           style={{
             resizeMode: "contain",
-            width: desktop ? 250 : ImageSize ? ImageSize : width / 2 - 40,
-            height: desktop ? 350 : height / 3,
+            width: desktop ? 150 : ImageSize ? ImageSize : width / 2 - 40,
+            height: desktop ? 250 : height / 3,
             borderRadius: 3,
           }}
         />

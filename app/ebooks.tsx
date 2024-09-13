@@ -4,11 +4,9 @@ import {
   useWindowDimensions,
   View,
 } from "react-native";
-import { ActiveLink } from "../component/ActiveLink";
 import BookCard from "../component/BookCard";
 import { Header } from "../component/Header";
 import { NavLink } from "../component/NavLink";
-import { ebook } from "../constants/images";
 import loadFont from "../constants/loadFont";
 import { BOOKS } from "../data/Data";
 
@@ -30,8 +28,8 @@ export default function Ebooks() {
       >
         <NavLink href="/" name="Home" />
         <NavLink href="prayer" name="Prayer" />
-        <ActiveLink href="ebooks" name="Books" icon={ebook} />
-        <NavLink href="wallpapers" name="Wallpapers" />
+        {/* <ActiveLink href="ebooks" name="Books" icon={ebook} />
+        <NavLink href="wallpapers" name="Wallpapers" /> */}
       </View>
     );
   };
@@ -45,8 +43,8 @@ export default function Ebooks() {
             paddingHorizontal: bigScreen
               ? width / 5
               : isMobile
-              ? 10
-              : width / 20,
+                ? 10
+                : width / 20,
           },
         ]}
       >
@@ -57,7 +55,7 @@ export default function Ebooks() {
 
         <View
           style={{
-            alignItems: "center",
+            //alignItems: "center",
           }}
         >
           {/* <QouteCard

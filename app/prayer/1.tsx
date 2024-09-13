@@ -36,8 +36,8 @@ export default function Details() {
             }}>
                 <NavLink href='/' name="Home" />
                 <ActiveLink href='../prayer' name='Prayer' />
-                <NavLink href='../ebooks' name='Books' />
-                <NavLink href='../wallpapers' name='Wallpapers' />
+                {/* <NavLink href='../ebooks' name='Books' />
+                <NavLink href='../wallpapers' name='Wallpapers' /> */}
             </View>
         )
     }

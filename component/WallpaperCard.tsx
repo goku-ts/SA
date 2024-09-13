@@ -52,7 +52,7 @@ export default function WallpaperCard({
               justifyContent: "flex-start",
               backgroundColor: "#FCFBF4",
               width: desktop ? width * 0.85 : width * 0.85,
-              height: desktop ? height * 0.9 : height * 0.9,
+              height: desktop ? height * 0.9 : height * 0.75,
             }}
           >
             <View
@@ -81,7 +81,7 @@ export default function WallpaperCard({
                 style={{
                   resizeMode: "cover",
                   width: desktop ? width * 0.3 : width * 0.6,
-                  height: desktop ? height * 0.7 : height * 0.7,
+                  height: desktop ? height * 0.7 : height * 0.6,
                   borderRadius: 3,
                   marginTop: 5,
                 }}
@@ -150,8 +150,8 @@ export default function WallpaperCard({
             source={image}
             style={{
               resizeMode: "cover",
-              width: desktop ? 300 : ImageSize ? ImageSize : width / 2 - 40,
-              height: desktop ? 500 : height / 3,
+              width: desktop ? 200 : ImageSize ? ImageSize : width / 2 - 40,
+              height: desktop ? 300 : height / 3,
               borderRadius: 3,
             }}
           />

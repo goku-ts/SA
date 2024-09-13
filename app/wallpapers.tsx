@@ -5,11 +5,9 @@ import {
   useWindowDimensions,
   View,
 } from "react-native";
-import { ActiveLink } from "../component/ActiveLink";
 import { Header } from "../component/Header";
 import { NavLink } from "../component/NavLink";
 import WallpaperCard from "../component/WallpaperCard";
-import { wallpaper } from "../constants/images";
 import loadFont from "../constants/loadFont";
 import { WALLPAPERS } from "../data/Data";
 
@@ -32,8 +30,8 @@ export default function Wallpaper() {
       >
         <NavLink href="/" name="Home" />
         <NavLink href="prayer" name="Prayer" />
-        <NavLink href="ebooks" name="Books" />
-        <ActiveLink href="wallpapers" name="Wallpapers" icon={wallpaper} />
+        {/* <NavLink href="ebooks" name="Books" />
+        <ActiveLink href="wallpapers" name="Wallpapers" icon={wallpaper} /> */}
       </View>
     );
   };
@@ -47,8 +45,8 @@ export default function Wallpaper() {
             paddingHorizontal: bigScreen
               ? width / 5
               : isMobile
-              ? 10
-              : width / 20,
+                ? 10
+                : width / 20,
           },
         ]}
       >
@@ -59,7 +57,7 @@ export default function Wallpaper() {
 
         <View
           style={{
-            alignItems: "center",
+            // alignItems: "center",
           }}
         >
           {/* <QouteCard
@@ -79,11 +77,11 @@ export default function Wallpaper() {
           >
             <FlatList
               data={WALLPAPERS}
-              key={2}
-              numColumns={2}
+              key={bigScreen ? 2 : 2}
+              numColumns={bigScreen ? 2 : 2}
               renderItem={({ item }) => (
                 <WallpaperCard
-                  hPadding={bigScreen ? width / 8 : isMobile ? 10 : width / 5}
+                  //hPadding={bigScreen ? width / 8 : isMobile ? 10 : width / 5}
                   //size={isMobile ? undefined : width - 15}
                   url={item.download_url}
                   key={item.id}
@@ -94,11 +92,11 @@ export default function Wallpaper() {
             />
           </View>
         </View>
-        <View
+        {/* <View
           style={{
             height: 100,
           }}
-        />
+        /> */}
       </View>
     </ScrollView>
   );

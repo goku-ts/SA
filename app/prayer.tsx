@@ -32,8 +32,8 @@ export default function Prayer() {
       >
         <NavLink href="/" name="Home" />
         <ActiveLink href="prayer" name="Prayer" icon={prayer} />
-        <NavLink href="ebooks" name="Books" />
-        <NavLink href="wallpapers" name="Wallpapers" />
+        {/* <NavLink href="ebooks" name="Books" />
+        <NavLink href="wallpapers" name="Wallpapers" /> */}
       </View>
     );
   };
@@ -47,8 +47,8 @@ export default function Prayer() {
             paddingHorizontal: bigScreen
               ? width / 5
               : isMobile
-              ? 10
-              : width / 20,
+                ? 10
+                : width / 20,
           },
         ]}
       >

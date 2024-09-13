@@ -34,8 +34,8 @@ export default function Home() {
       >
         <ActiveLink href="/" name="Home" icon={home} />
         <NavLink href="prayer" name="Prayer" />
-        <NavLink href="ebooks" name="Books" />
-        <NavLink href="wallpapers" name="Wallpapers" />
+        {/* <NavLink href="ebooks" name="Books" />
+        <NavLink href="wallpapers" name="Wallpapers" /> */}
       </View>
     );
   };
@@ -58,7 +58,7 @@ export default function Home() {
 
         <View
           style={{
-            alignItems: "center",
+            //alignItems: "center",
           }}
         >
           {/* <QouteCard
