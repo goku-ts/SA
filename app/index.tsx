@@ -30,6 +30,7 @@ export default function Home() {
           alignItems: "center",
           marginTop: 10,
           marginBottom: 20,
+
         }}
       >
         <ActiveLink href="/" name="Home" icon={home} />

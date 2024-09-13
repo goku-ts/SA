@@ -9,14 +9,9 @@ export const Header = () => {
         <View style={{
             flexDirection: "row",
             alignItems: "center",
-            marginBottom: 30
+            marginBottom: 30,
+            marginLeft: -15
         }}>
-            {/* <Image source={cross} style={{
-                width: 20,
-                height: 20,
-                marginRight: 3,
-                tintColor: "orange",
-            }} /> */}
             <Image source={fire} style={{
                 width: 25,
                 height: 25,
