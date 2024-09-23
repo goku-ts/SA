@@ -9,7 +9,7 @@ export const POST = [
         "title": ` ### **Breaking out of the mould.**`,
         "description": `We can be, and have been shaped by so many moulds throughout our lives. From how we were raised, where we grew up, our friends, relationships, culture and tradition, our beliefs, traditional media, or even our own life experiences....`,
         "author": "HGb",
-        "date": "July 2, 2024",
+        "date": "Sep 23, 2024",
         "content": `
         
 **_And Nathanael said to him, “Can anything good come out of Nazareth?” Philip said to him, “Come and see.” John 1:46_**.
@@ -86,9 +86,9 @@ export const PRAYERS = [
     {
         "id": 1,
         "title": `### **#1: Breaking out of the mould**`,
-        "description": `Declarrative prayer on breaking out of wrong and negative patters and breaking through in Christ Jesus, by taking our place in Him.`,
+        "description": `Declarative prayer on breaking out of wrong and negative patters and breaking through in Christ Jesus, by taking our place in Him.`,
         "author": "HGb",
-        "date": "July 2, 2024",
+        "date": "Sep 23, 2024",
         "content": `
 This prayer is linked to **[this post.](https://spiritarmy.com/prayer/1?id=1)**
 
@@ -166,7 +166,7 @@ export const FAITH = [
         "title": `### **#Faith: I'm Breaking out of the mould.**`,
         "description": `Spirit filled confessions rooted in the revelation scripture`,
         "author": "HGb",
-        "date": "July 2, 2024",
+        "date": "Sep 23, 2024",
         "content": `
         
 I am born to conform to the image of Christ. - _Romans 8:29_ 
