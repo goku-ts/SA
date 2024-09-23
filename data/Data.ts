@@ -16,7 +16,7 @@ export const POST = [
 
 A mould can be a predefined shape or style used to shape objects according to its pattern and likeness.
 
-We were created after the mould (image and likeness) of God from the beginning, yet after the fall, man came under a world and system that had control over him to reshape and remould him against God's original intent.
+We were created after the mould (image and likeness) of God from the beginning, yet after the fall, man came under a world and system, that had control over him, to reshape and remold him against God's original intent.
 
 We can be, and have been shaped by so many moulds throughout our lives. From how we were raised, where we grew up, our friends, relationships, culture and tradition, our beliefs, traditional and social media, or even our own life experiences and especialy the things we hear.
 
@@ -178,33 +178,33 @@ export const FAITH = [
 
 These Faith Confessions are linked to **[this post.](https://spiritarmy.com/post/1?id=1)**    
 
-I am born to conform to the image of Christ. - _Romans 8:29_ 
+I am born to conform to the image of Christ. - _**Romans 8:29**_ 
 
-He is my ultimate mould and I am shaped after Him. - _2 Corinthians 3:18_
+He is my ultimate mould and I am shaped after Him. - _**2 Corinthians 3:18**_
 
-As I take my place and stand in Him, all other moulds are broken now! - _2 Corinthians 5:17_
+As I take my place and stand in Him, all other moulds are broken now! - _**2 Corinthians 5:17**_
 
-It is in Him I live, move and have my being.- _Acts 17:28_
+It is in Him I live, move and have my being.- _**Acts 17:28**_
 
-I have and manifest the mind of Christ. I renounce all negative mindsets, and wrong thinking patterns in Jesus name. - _1 Corinthians 2:16_
+I have and manifest the mind of Christ. I renounce all negative mindsets, and wrong thinking patterns in Jesus name. - _**1 Corinthians 2:16**_
 
-I think thoughts of peace, abundance and provision. - _Philippians 4:8_
+I think thoughts of peace, abundance and provision. - _**Philippians 4:8**_
 
 I am in Christ, all things are new in my life!. What has died is coming alive!
 
-I live a new life, I think new thoughts of grace and peace.- _Philippians 4:7_
+I live a new life, I think new thoughts of grace and peace.- _**Philippians 4:7**_
 
-I am moulded in Christ after His everlasting love and abounding grace. - _Jeremiah 31:3_,  _Ephesians 2:8-9_
+I am moulded in Christ after His everlasting love and abounding grace. - _**Jeremiah 31:3**_,  _**Ephesians 2:8-9**_
 
-In Him, i am limitless and boundless, i grow! I expand! I advance! I fulfil purpose and destiny. - _Philippians 4:13_ 
+In Him, i am limitless and boundless, i grow! I expand! I advance! I fulfil purpose and destiny. - _**Philippians 4:13**_ 
 
-In Him, i am empowered to break every limitation. - _Philippians 4:13_, _Ephesians 3:20_
+In Him, i am empowered to break every limitation. - _**Philippians 4:13**_, _**Ephesians 3:20**_
 
-Every barrier to my progress, advancements, promotions and my next level, is removed; I move forward in victory. - _Isaiah 45:2_, _Isaiah 45:2_
+Every barrier to my progress, advancements, promotions and my next level, is removed; I move forward in victory. - _**Isaiah 45:2**_, _**Isaiah 45:2**_
         
-I am no longer bound by fear or failure; I step boldly into my destiny. - _2 Timothy 1:7_, _Romans 8:15_
+I am no longer bound by fear or failure; I step boldly into my destiny. - _**2 Timothy 1:7**_, _**Romans 8:15**_
 
-I reject every limitation placed on me by the words and action of others; in Christ, I am boundless and limitless!.- _Galatians 5:1_, _1 John 4:4_
+I reject every limitation placed on me by the words and action of others; in Christ, I am boundless and limitless!.- _**Galatians 5:1**_, _**1 John 4:4**_
         `,
     },
     //     {
