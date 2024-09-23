@@ -32,6 +32,7 @@ export default function Prayer() {
       >
         <NavLink href="/" name="Home" />
         <ActiveLink href="prayer" name="Prayer" icon={prayer} />
+        <NavLink href="faith" name="Faith Wall" />
         {/* <NavLink href="ebooks" name="Books" />
         <NavLink href="wallpapers" name="Wallpapers" /> */}
       </View>
@@ -39,7 +40,11 @@ export default function Prayer() {
   };
 
   return (
-    <ScrollView showsVerticalScrollIndicator={false}>
+    <ScrollView showsVerticalScrollIndicator={false} style={{
+      flex: 1,
+      backgroundColor: "#f4f4f5",
+
+    }}>
       <View
         style={[
           styles.container,
@@ -60,6 +65,7 @@ export default function Prayer() {
         <View
           style={
             {
+
               // alignItems: "center",
             }
           }
@@ -106,5 +112,6 @@ const styles = StyleSheet.create({
   },
   nav_area: {
     margin: 15,
+    marginBottom: 50,
   },
 });

@@ -35,6 +35,7 @@ export default function Home() {
       >
         <ActiveLink href="/" name="Home" icon={home} />
         <NavLink href="prayer" name="Prayer" />
+        <NavLink href="faith" name="Faith Wall" />
         {/* <NavLink href="ebooks" name="Books" />
         <NavLink href="wallpapers" name="Wallpapers" /> */}
       </View>

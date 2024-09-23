@@ -1,80 +1,81 @@
 import { lost_art_of_intersession } from "../app/books/images/bookImages";
 import { wp } from "../app/wallpapers/images/wallpaperImages";
-import { blog, blog1 } from "../constants/images";
+import { blog1 } from "../constants/images";
 
 
 export const POST = [
     {
         "id": 1,
-        "title": ` ### **"Second in my love..." : Living in the Father's love**`,
-        "description": `Sometimes, accepting what we feel we don't deserve, can make us feel unworthy and guilty.
-God's love however, is beyond our understanding. I believe it is a mystery that cannot be explained...`,
+        "title": ` ### **Breaking out of the mould.**`,
+        "description": `We can be, and have been shaped by so many moulds throughout our lives. From how we were raised, where we grew up, our friends, relationships, culture and tradition, our beliefs, traditional media, or even our own life experiences....`,
         "author": "HGb",
         "date": "July 2, 2024",
         "content": `
         
-**John 15:9 ISV "As the Father loves me, so do I love you. So abide in my love"**.
+**_And Nathanael said to him, “Can anything good come out of Nazareth?” Philip said to him, “Come and see.” John 1:46_**.
 
-Sometimes, accepting what we feel we don't deserve, can make us feel unworthy and guilty.
+A mould can be a predefined shape or style used to shape objects according to its pattern and likeness.
 
-God's love however, is beyond our understanding. I believe it is a mystery that cannot be explained. When we feel most undeserving of His love, that’s when He sees us as most deserving. **Romans 5:8 says, "But God shows His love for us in that while we were still sinners, Christ died for us"**.
+We were created after the mould (image and likeness) of God from the beginning, yet after the fall, man came under a world and system that had control over him to reshape and remould him against God's original intent.
 
-"As the Father loves me, so I also love you..." One of my most conscious confessions is "As long as the Father loves Jesus, Jesus loves me". Will the Father ever stop loving Jesus? No. So will Jesus ever stop loving me? No.
+We can be, and have been shaped by so many moulds throughout our lives. From how we were raised, where we grew up, our friends, relationships, culture and tradition, our beliefs, traditional and social media, or even our own life experiences and especialy the things we hear.
 
-Jesus reassures His disciples that His love for them is not based on their actions, but on His Father’s love for Him. Their part was to learn to abide in His love.
+We look like how we have been shaped. Not just our physical appearance, but our mindset, our speech, our attitude and response towards life, our fears and expectations.
 
-His love is **unconditional**. However, abiding in His love depends on us. Verse 10 says, "If you keep my words, **you will abide in my love**, just as I have kept my Father’s words and abide in His love."
+From our scriptural text, we know Nazareth was known to be a place where nothing good comes from. It was a well known fact that anyone shaped after the mould of a Nazarene was everything else but something good.
 
-As we keep His words in our hearts daily, we will abide in His love daily.
+Yet our Lord, who did and still does so much good, who was, who is and forever will be an embodiment of goodness, came from there!. 
 
-**Let's Pray :**
-Lord, thank you for loving me unconditionally. You look beyond my weaknesses and love me either way. I accept your love for me and I ask that you will help me stay in this love, by keeping your words daily. I ask for the grace to fellowship with Your Word and the Spirit. Thank you Lord for answering me, because of your love for me. Amen
+Nazareth couldn’t mould our Lord because He will later become for us, our ultimate mould.
 
-**Acknowledge with me:**
-I am deeply loved by the Father.
-His love shines upon me.
-His Words are an anchor to my soul
-His love is my trademark ! 
+When we come into Christ, He becomes our perfect and ultimate mould!
+
+_Therefore if any man be in Christ, he is a **new creature**: old things are passed away; behold, **all things** are become **new**. - 2 Corinthians 5:17_
+
+_But we all, with uncovered face beholding as in a glass the glory of the Lord, are changed into the same image, from glory to glory, even as by the Spirit of the Lord.
+2 Corinthians 3:18._
+
+As we take our place in Christ, with faith in His love and finishes works, we break out of every wrong mould and take on the mould of the image and character of Christ.
 
         `,
         "image": blog1
     },
-    {
-        "id": 2,
-        "title": `### **"Abide in my love..." : Living in the Father's love**`,
-        "description": `Sometimes, accepting what we feel we don't deserve, can make us feel unworthy and guilty.
-God's love however, is beyond our understanding. I believe it is a mystery that cannot be explained...`,
-        "author": "HGb",
-        "date": "July 2, 2024",
-        "content": `
-        
+    //     {
+    //         "id": 2,
+    //         "title": `### **"Abide in my love..." : Living in the Father's love**`,
+    //         "description": `Sometimes, accepting what we feel we don't deserve, can make us feel unworthy and guilty.
+    // God's love however, is beyond our understanding. I believe it is a mystery that cannot be explained...`,
+    //         "author": "HGb",
+    //         "date": "July 2, 2024",
+    //         "content": `
 
-**John 15:9 ISV "As the Father loves me, so do I love you. So abide in my love"**.
 
-Sometimes, accepting what we feel we don't deserve, can make us feel unworthy and guilty.
+    // **John 15:9 ISV "As the Father loves me, so do I love you. So abide in my love"**.
 
-God's love however, is beyond our understanding. I believe it is a mystery that cannot be explained. When we feel most undeserving of His love, that’s when He sees us as most deserving. **Romans 5:8 says, "But God shows His love for us in that while we were still sinners, Christ died for us"**.
+    // Sometimes, accepting what we feel we don't deserve, can make us feel unworthy and guilty.
 
-"As the Father loves me, so I also love you..." One of my most conscious confessions is "As long as the Father loves Jesus, Jesus loves me". Will the Father ever stop loving Jesus? No. So will Jesus ever stop loving me? No.
+    // God's love however, is beyond our understanding. I believe it is a mystery that cannot be explained. When we feel most undeserving of His love, that’s when He sees us as most deserving. **Romans 5:8 says, "But God shows His love for us in that while we were still sinners, Christ died for us"**.
 
-Jesus reassures His disciples that His love for them is not based on their actions, but on His Father’s love for Him. Their part was to learn to abide in His love.
+    // "As the Father loves me, so I also love you..." One of my most conscious confessions is "As long as the Father loves Jesus, Jesus loves me". Will the Father ever stop loving Jesus? No. So will Jesus ever stop loving me? No.
 
-His love is **unconditional**. However, abiding in His love depends on us. Verse 10 says, "If you keep my words, **you will abide in my love**, just as I have kept my Father’s words and abide in His love."
+    // Jesus reassures His disciples that His love for them is not based on their actions, but on His Father’s love for Him. Their part was to learn to abide in His love.
 
-As we keep His words in our hearts daily, we will abide in His love daily.
+    // His love is **unconditional**. However, abiding in His love depends on us. Verse 10 says, "If you keep my words, **you will abide in my love**, just as I have kept my Father’s words and abide in His love."
 
-**Let's Pray :**
-Lord, thank you for loving me unconditionally. You look beyond my weaknesses and love me either way. I accept your love for me and I ask that you will help me stay in this love, by keeping your words daily. I ask for the grace to fellowship with Your Word and the Spirit. Thank you Lord for answering me, because of your love for me. Amen
+    // As we keep His words in our hearts daily, we will abide in His love daily.
 
-**Acknowledge with me:**
-I am deeply loved by the Father.
-His love shines upon me.
-His Words are an anchor to my soul
-His love is my trademark ! 
+    // **Let's Pray :**
+    // Lord, thank you for loving me unconditionally. You look beyond my weaknesses and love me either way. I accept your love for me and I ask that you will help me stay in this love, by keeping your words daily. I ask for the grace to fellowship with Your Word and the Spirit. Thank you Lord for answering me, because of your love for me. Amen
 
-        `,
-        "image": blog
-    },
+    // **Acknowledge with me:**
+    // I am deeply loved by the Father.
+    // His love shines upon me.
+    // His Words are an anchor to my soul
+    // His love is my trademark ! 
+
+    //         `,
+    //         "image": blog
+    //     },
 
 
 
@@ -84,139 +85,158 @@ His love is my trademark !
 export const PRAYERS = [
     {
         "id": 1,
-        "title": `### **Prayer for Axiety and Fear**`,
-        "description": `Deep meditative prayer for anxiety and fear, rooted in scripture.`,
+        "title": `### **#1: Breaking out of the mould**`,
+        "description": `Declarrative prayer on breaking out of wrong and negative patters and breaking through in Christ Jesus, by taking our place in Him.`,
         "author": "HGb",
         "date": "July 2, 2024",
         "content": `
+This prayer is linked to **[this post.](https://spiritarmy.com/prayer/1?id=1)**
+
+
+_And Nathanael said to him, **“Can anything good come out of Nazareth?”** Philip said to him, “Come and see.” John 1:46_.
+
+_Therefore if any man be in Christ, he is a **new creature**: old things are passed away; behold, **all things** are become **new**. - 2 Corinthians 5:17_
+
+_But we all, with uncovered face beholding as in a glass the glory of the Lord, **are changed into the same image**, from **glory to glory**, even as by the Spirit of the Lord.- 2 Corinthians 3:18._
         
-**John 15:9 ISV "As the Father loves me, so do I love you. So abide in my love"**.
+Father thank you for giving me Jesus as my ultimate mould, and breaking me out of all negative moulds, in Jesus' name.
 
-Sometimes, accepting what we feel we don't deserve, can make us feel unworthy and guilty.
+I pray by revelation of who I am in Christ Jesus and I take my stand and authority in His name.
 
-God's love however, is beyond our understanding. I believe it is a mystery that cannot be explained. When we feel most undeserving of His love, that’s when He sees us as most deserving. **Romans 5:8 says, "But God shows His love for us in that while we were still sinners, Christ died for us"**.
 
-"As the Father loves me, so I also love you..." One of my most conscious confessions is "As long as the Father loves Jesus, Jesus loves me". Will the Father ever stop loving Jesus? No. So will Jesus ever stop loving me? No.
+I hereby insist that I break out of any mould that has shaped me outside the image and character of Christ.
 
-Jesus reassures His disciples that His love for them is not based on their actions, but on His Father’s love for Him. Their part was to learn to abide in His love.
+From wrong beliefs, to wrong words spoken over me, to every known and hidden pattern of negativity in my household and environment, I break out of them all in Jesus name.
 
-His love is **unconditional**. However, abiding in His love depends on us. Verse 10 says, "If you keep my words, **you will abide in my love**, just as I have kept my Father’s words and abide in His love."
+I am in Christ, I am new!, I cannot and will not be shaped my the moulds of my past!
 
-As we keep His words in our hearts daily, we will abide in His love daily.
+I ask that by the help of the Holy Spirit, I will be shaped after the mould of the image of Christ day by day.
 
-**Let's Pray :**
-Lord, thank you for loving me unconditionally. You look beyond my weaknesses and love me either way. I accept your love for me and I ask that you will help me stay in this love, by keeping your words daily. I ask for the grace to fellowship with Your Word and the Spirit. Thank you Lord for answering me, because of your love for me. Amen
+Negative cultural and traditional moulds, you will no longer shape my life, be broken in Jesus name!
 
-**Acknowledge with me:**
-I am deeply loved by the Father.
-His love shines upon me.
-His Words are an anchor to my soul
-His love is my trademark ! 
+Negative and traumatic  past experiences, you will no longer shape my life, loose your power over me in Jesus name!
+
+Wrong beliefs and mindsets,  you will no longer shape my life, loose your hold over me in Jesus name!
+
+Ungodly and negative words spoken to me and over me, you will no longer shape my life, loose your hold over me in Jesus name!
+
+I take on the mould of Christ, to shape my life, my health, my family, my future and all that relates to me in Jesus name.
         
         `,
     },
-    {
-        "id": 2,
-        "title": `### **Prayer for Axiety and Fear**`,
-        "description": `Deep meditative prayer for anxiety and fear, rooted in scripture.`,
-        "author": "HGb",
-        "date": "July 2, 2024",
-        "content": `
-        
-**John 15:9 ISV "As the Father loves me, so do I love you. So abide in my love"**.
+    //     {
+    //         "id": 2,
+    //         "title": `### **Prayer for Axiety and Fear**`,
+    //         "description": `Deep meditative prayer for anxiety and fear, rooted in scripture.`,
+    //         "author": "HGb",
+    //         "date": "July 2, 2024",
+    //         "content": `
 
-Sometimes, accepting what we feel we don't deserve, can make us feel unworthy and guilty.
+    // **John 15:9 ISV "As the Father loves me, so do I love you. So abide in my love"**.
 
-God's love however, is beyond our understanding. I believe it is a mystery that cannot be explained. When we feel most undeserving of His love, that’s when He sees us as most deserving. **Romans 5:8 says, "But God shows His love for us in that while we were still sinners, Christ died for us"**.
+    // Sometimes, accepting what we feel we don't deserve, can make us feel unworthy and guilty.
 
-"As the Father loves me, so I also love you..." One of my most conscious confessions is "As long as the Father loves Jesus, Jesus loves me". Will the Father ever stop loving Jesus? No. So will Jesus ever stop loving me? No.
+    // God's love however, is beyond our understanding. I believe it is a mystery that cannot be explained. When we feel most undeserving of His love, that’s when He sees us as most deserving. **Romans 5:8 says, "But God shows His love for us in that while we were still sinners, Christ died for us"**.
 
-Jesus reassures His disciples that His love for them is not based on their actions, but on His Father’s love for Him. Their part was to learn to abide in His love.
+    // "As the Father loves me, so I also love you..." One of my most conscious confessions is "As long as the Father loves Jesus, Jesus loves me". Will the Father ever stop loving Jesus? No. So will Jesus ever stop loving me? No.
 
-His love is **unconditional**. However, abiding in His love depends on us. Verse 10 says, "If you keep my words, **you will abide in my love**, just as I have kept my Father’s words and abide in His love."
+    // Jesus reassures His disciples that His love for them is not based on their actions, but on His Father’s love for Him. Their part was to learn to abide in His love.
 
-As we keep His words in our hearts daily, we will abide in His love daily.
+    // His love is **unconditional**. However, abiding in His love depends on us. Verse 10 says, "If you keep my words, **you will abide in my love**, just as I have kept my Father’s words and abide in His love."
 
-**Let's Pray :**
-Lord, thank you for loving me unconditionally. You look beyond my weaknesses and love me either way. I accept your love for me and I ask that you will help me stay in this love, by keeping your words daily. I ask for the grace to fellowship with Your Word and the Spirit. Thank you Lord for answering me, because of your love for me. Amen
+    // As we keep His words in our hearts daily, we will abide in His love daily.
 
-**Acknowledge with me:**
-I am deeply loved by the Father.
-His love shines upon me.
-His Words are an anchor to my soul
-His love is my trademark ! 
-        
-        `
-    },
+    // **Let's Pray :**
+    // Lord, thank you for loving me unconditionally. You look beyond my weaknesses and love me either way. I accept your love for me and I ask that you will help me stay in this love, by keeping your words daily. I ask for the grace to fellowship with Your Word and the Spirit. Thank you Lord for answering me, because of your love for me. Amen
 
-    {
-        "id": 3,
-        "title": `### **Prayer for Axiety and Fear**`,
-        "description": `Deep meditative prayer for anxiety and fear, rooted in scripture.`,
-        "author": "HGb",
-        "date": "July 2, 2024",
-        "content": `
-        
-**John 15:9 ISV "As the Father loves me, so do I love you. So abide in my love"**.
+    // **Acknowledge with me:**
+    // I am deeply loved by the Father.
+    // His love shines upon me.
+    // His Words are an anchor to my soul
+    // His love is my trademark ! 
 
-Sometimes, accepting what we feel we don't deserve, can make us feel unworthy and guilty.
-
-God's love however, is beyond our understanding. I believe it is a mystery that cannot be explained. When we feel most undeserving of His love, that’s when He sees us as most deserving. **Romans 5:8 says, "But God shows His love for us in that while we were still sinners, Christ died for us"**.
-
-"As the Father loves me, so I also love you..." One of my most conscious confessions is "As long as the Father loves Jesus, Jesus loves me". Will the Father ever stop loving Jesus? No. So will Jesus ever stop loving me? No.
-
-Jesus reassures His disciples that His love for them is not based on their actions, but on His Father’s love for Him. Their part was to learn to abide in His love.
-
-His love is **unconditional**. However, abiding in His love depends on us. Verse 10 says, "If you keep my words, **you will abide in my love**, just as I have kept my Father’s words and abide in His love."
-
-As we keep His words in our hearts daily, we will abide in His love daily.
-
-**Let's Pray :**
-Lord, thank you for loving me unconditionally. You look beyond my weaknesses and love me either way. I accept your love for me and I ask that you will help me stay in this love, by keeping your words daily. I ask for the grace to fellowship with Your Word and the Spirit. Thank you Lord for answering me, because of your love for me. Amen
-
-**Acknowledge with me:**
-I am deeply loved by the Father.
-His love shines upon me.
-His Words are an anchor to my soul
-His love is my trademark ! 
-        
-        `
-    },
-    {
-        "id": 4,
-        "title": `### **Prayer for Axiety and Fear**`,
-        "description": `Deep meditative prayer for anxiety and fear, rooted in scripture.`,
-        "author": "HGb",
-        "date": "July 2, 2024",
-        "content": `
-        
-**John 15:9 ISV "As the Father loves me, so do I love you. So abide in my love"**.
-
-Sometimes, accepting what we feel we don't deserve, can make us feel unworthy and guilty.
-
-God's love however, is beyond our understanding. I believe it is a mystery that cannot be explained. When we feel most undeserving of His love, that’s when He sees us as most deserving. **Romans 5:8 says, "But God shows His love for us in that while we were still sinners, Christ died for us"**.
-
-"As the Father loves me, so I also love you..." One of my most conscious confessions is "As long as the Father loves Jesus, Jesus loves me". Will the Father ever stop loving Jesus? No. So will Jesus ever stop loving me? No.
-
-Jesus reassures His disciples that His love for them is not based on their actions, but on His Father’s love for Him. Their part was to learn to abide in His love.
-
-His love is **unconditional**. However, abiding in His love depends on us. Verse 10 says, "If you keep my words, **you will abide in my love**, just as I have kept my Father’s words and abide in His love."
-
-As we keep His words in our hearts daily, we will abide in His love daily.
-
-**Let's Pray :**
-Lord, thank you for loving me unconditionally. You look beyond my weaknesses and love me either way. I accept your love for me and I ask that you will help me stay in this love, by keeping your words daily. I ask for the grace to fellowship with Your Word and the Spirit. Thank you Lord for answering me, because of your love for me. Amen
-
-**Acknowledge with me:**
-I am deeply loved by the Father.
-His love shines upon me.
-His Words are an anchor to my soul
-His love is my trademark ! 
-        
-        `
-    },
-
+    //         `
+    //     },
 ]
+
+
+export const FAITH = [
+    {
+        "id": 1,
+        "title": `### **#Faith: I'm Breaking out of the mould.**`,
+        "description": `Spirit filled confessions rooted in the revelation scripture`,
+        "author": "HGb",
+        "date": "July 2, 2024",
+        "content": `
+        
+I am born to conform to the image of Christ. - _Romans 8:29_ 
+
+He is my ultimate mould and I am shaped after Him. - _2 Corinthians 3:18_
+
+As I take my place and stand in Him, all other moulds are broken now! - _2 Corinthians 5:17_
+
+It is in Him I live, move and have my being.- _Acts 17:28_
+
+I have and manifest the mind of Christ. I renounce all negative mindsets, and wrong thinking patterns in Jesus name. - _1 Corinthians 2:16_
+
+I think thoughts of peace, abundance and provision. - _Philippians 4:8_
+
+I am in Christ, all things are new in my life!. What has died is coming alive!
+
+I live a new life, I think new thoughts of grace and peace.- _Philippians 4:7_
+
+I am moulded in Christ after His everlasting love and abounding grace. - _Jeremiah 31:3_,  _Ephesians 2:8-9_
+
+In Him, i am limitless and boundless, i grow! I expand! I advance! I fulfil purpose and destiny. - _Philippians 4:13_ 
+
+In Him, i am empowered to break every limitation. - _Philippians 4:13_, _Ephesians 3:20_
+
+Every barrier to my progress, advancements, promotions and my next level, is removed; I move forward in victory. - _Isaiah 45:2_, _Isaiah 45:2_
+        
+I am no longer bound by fear or failure; I step boldly into my destiny. - _2 Timothy 1:7_, _Romans 8:15_
+
+I reject every limitation placed on me by the words and action of others; in Christ, I am boundless and limitless!.- _Galatians 5:1_, _1 John 4:4_
+        `,
+    },
+    //     {
+    //         "id": 2,
+    //         "title": `### **FAITH**`,
+    //         "description": `Deep meditative prayer for anxiety and fear, rooted in scripture.`,
+    //         "author": "HGb",
+    //         "date": "July 2, 2024",
+    //         "content": `
+
+    // **John 15:9 ISV "As the Father loves me, so do I love you. So abide in my love"**.
+
+    // Sometimes, accepting what we feel we don't deserve, can make us feel unworthy and guilty.
+
+    // God's love however, is beyond our understanding. I believe it is a mystery that cannot be explained. When we feel most undeserving of His love, that’s when He sees us as most deserving. **Romans 5:8 says, "But God shows His love for us in that while we were still sinners, Christ died for us"**.
+
+    // "As the Father loves me, so I also love you..." One of my most conscious confessions is "As long as the Father loves Jesus, Jesus loves me". Will the Father ever stop loving Jesus? No. So will Jesus ever stop loving me? No.
+
+    // Jesus reassures His disciples that His love for them is not based on their actions, but on His Father’s love for Him. Their part was to learn to abide in His love.
+
+    // His love is **unconditional**. However, abiding in His love depends on us. Verse 10 says, "If you keep my words, **you will abide in my love**, just as I have kept my Father’s words and abide in His love."
+
+    // As we keep His words in our hearts daily, we will abide in His love daily.
+
+    // **Let's Pray :**
+    // Lord, thank you for loving me unconditionally. You look beyond my weaknesses and love me either way. I accept your love for me and I ask that you will help me stay in this love, by keeping your words daily. I ask for the grace to fellowship with Your Word and the Spirit. Thank you Lord for answering me, because of your love for me. Amen
+
+    // **Acknowledge with me:**
+    // I am deeply loved by the Father.
+    // His love shines upon me.
+    // His Words are an anchor to my soul
+    // His love is my trademark ! 
+
+    //         `
+    //     },
+]
+
+
+
+
+
 
 export const BOOKS = [
     {

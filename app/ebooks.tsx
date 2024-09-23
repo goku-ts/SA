@@ -35,7 +35,13 @@ export default function Ebooks() {
   };
 
   return (
-    <ScrollView showsVerticalScrollIndicator={false}>
+    <ScrollView showsVerticalScrollIndicator={false}
+      style={{
+        flex: 1,
+        backgroundColor: "#f4f4f5",
+
+      }}
+    >
       <View
         style={[
           styles.container,

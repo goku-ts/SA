@@ -1,23 +1,19 @@
 import { useLocalSearchParams } from 'expo-router';
 import React from 'react';
-import { Image, ScrollView, StyleSheet, useWindowDimensions, View } from 'react-native';
+import { ScrollView, StyleSheet, useWindowDimensions, View } from 'react-native';
 import { ActiveLink } from '../../component/ActiveLink';
 import AppText from '../../component/AppText';
 import { Header } from '../../component/Header';
 import { NavLink } from '../../component/NavLink';
 import RegularText from '../../component/RegularText';
-import { home } from '../../constants/images';
 
 import Content from '../../component/Content';
-
-import ShareButton from '../../component/ShareButton';
 import loadFont from '../../constants/loadFont';
 import { COLORS } from '../../constants/theme';
-import { POST } from '../../data/Data';
+import { FAITH } from '../../data/Data';
+import ShareButton from '../../component/ShareButton';
 
 export default function Details() {
-
-
 
     loadFont();
 
@@ -39,10 +35,9 @@ export default function Details() {
                 marginTop: 10,
                 marginBottom: 30
             }}>
-                <ActiveLink href='/' name="Home" icon={home} />
+                <NavLink href='/' name="Home" />
                 <NavLink href='../prayer' name='Prayer' />
-                <NavLink href="../faith" name="Faith Wall" />
-
+                <ActiveLink href="../faith" name="Faith Wall" />
                 {/* <NavLink href='../ebooks' name='Books' />
                 <NavLink href='../wallpapers' name='Wallpapers' /> */}
             </View>
@@ -69,21 +64,17 @@ export default function Details() {
 
                 <View style={styles.postContainer}>
 
+
                     <View style={{
-                        marginBottom: 30
+                        marginTop: 10
                     }}>
                         <AppText>
                             <Content>
-                                {POST[post - 1]?.title}
+                                {FAITH[post - 1]?.title}
                             </Content>
                         </AppText>
                     </View>
 
-                    <Image source={POST[post - 1]?.image} resizeMode='cover' style={{
-                        width: bigScreen ? width * 0.4 : isMobile ? width * 0.85 : width * 0.85,
-                        height: bigScreen ? height * 0.3 : isMobile ? height * 0.3 : height * 0.3,
-                        borderRadius: 10
-                    }} />
                     <View style={{
                         marginTop: 10,
                         flexDirection: "row",
@@ -91,33 +82,32 @@ export default function Details() {
                     }}>
                         <View style={styles.author}>
                             <RegularText>
-                                {POST[post - 1]?.author}
+                                {FAITH[post - 1]?.author}
                             </RegularText>
                         </View>
                         <View style={[styles.author, {
                             marginLeft: 20
                         }]}>
                             <RegularText>
-                                {POST[post - 1]?.date}
+                                {FAITH[post - 1]?.date}
                             </RegularText>
                         </View>
 
                     </View>
-
-
 
                     <View style={{
                         marginTop: 10
                     }}>
                         <AppText>
                             <Content>
-                                {POST[post - 1]?.content}
+                                {FAITH[post - 1]?.content}
                             </Content>
                         </AppText>
 
                     </View>
                 </View>
-                <ShareButton url='post/1?id=1' />
+                <ShareButton url='faith/1?id=1' />
+
                 <View style={{
                     height: 100
                 }} />

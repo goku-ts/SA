@@ -36,6 +36,7 @@ export default function Details() {
             }}>
                 <NavLink href='/' name="Home" />
                 <ActiveLink href='../prayer' name='Prayer' />
+                <NavLink href="../faith" name="Faith Wall" />
                 {/* <NavLink href='../ebooks' name='Books' />
                 <NavLink href='../wallpapers' name='Wallpapers' /> */}
             </View>
@@ -43,10 +44,17 @@ export default function Details() {
     }
 
     return (
-        <View style={[styles.container, {
-            paddingHorizontal: bigScreen ? width / 5 : isMobile ? 10 : width / 20
-        }]}>
-            <ScrollView showsVerticalScrollIndicator={false}>
+        <ScrollView showsVerticalScrollIndicator={false}
+            style={{
+                flex: 1,
+                backgroundColor: "#f4f4f5",
+
+            }}
+        >
+            <View style={[styles.container, {
+                paddingHorizontal: bigScreen ? width / 5 : isMobile ? 10 : width / 20
+            }]}>
+
 
 
 
@@ -70,6 +78,7 @@ export default function Details() {
                     <View style={{
                         marginTop: 10,
                         flexDirection: "row",
+                        marginBottom: 30
                     }}>
                         <View style={styles.author}>
                             <RegularText>
@@ -101,8 +110,8 @@ export default function Details() {
                 <View style={{
                     height: 100
                 }} />
-            </ScrollView>
-        </View>
+            </View>
+        </ScrollView>
     );
 }
 
