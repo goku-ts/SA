@@ -37,6 +37,13 @@ _But we all, with uncovered face beholding as in a glass the glory of the Lord, 
 
 As we take our place in Christ, with faith in His love and finishes works, we break out of every wrong mould and take on the mould of the image and character of Christ.
 
+**[Prayers connected to this post.](https://spiritarmy.com/prayer/1?id=1)**
+**[Faith Confessions connected to this post.](https://spiritarmy.com/faith/1?id=1)**
+
+
+
+
+
         `,
         "image": blog1
     },
@@ -90,7 +97,7 @@ export const PRAYERS = [
         "author": "HGb",
         "date": "Sep 23, 2024",
         "content": `
-This prayer is linked to **[this post.](https://spiritarmy.com/prayer/1?id=1)**
+These prayers are linked to **[this post.](https://spiritarmy.com/post/1?id=1)**
 
 
 _And Nathanael said to him, **“Can anything good come out of Nazareth?”** Philip said to him, “Come and see.” John 1:46_.
@@ -168,7 +175,9 @@ export const FAITH = [
         "author": "HGb",
         "date": "Sep 23, 2024",
         "content": `
-        
+
+These Faith Confessions are linked to **[this post.](https://spiritarmy.com/post/1?id=1)**    
+
 I am born to conform to the image of Christ. - _Romans 8:29_ 
 
 He is my ultimate mould and I am shaped after Him. - _2 Corinthians 3:18_
