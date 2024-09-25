@@ -18,7 +18,7 @@ export default function Prayer() {
   const isMobile = width < 600;
   const bigScreen = width > 1000;
 
-  let Prayer = PRAYERS.reverse()
+  //let Prayer = PRAYERS.reverse()
 
   const NavBar = () => {
     loadFont();
@@ -79,7 +79,7 @@ export default function Prayer() {
             }
           >
             {PRAYERS &&
-              Prayer.map((item) => {
+              PRAYERS.map((item) => {
                 return (
                   <PrayerCard
                     desktop={isMobile ? false : true}
