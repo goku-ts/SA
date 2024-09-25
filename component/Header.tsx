@@ -14,7 +14,7 @@ export const Header = () => {
         }}>
             <Image source={fire} style={{
                 width: 25,
-                height: 25,
+                height: 30,
                 marginRight: 3,
                 tintColor: COLORS.orange6,
             }} />
@@ -30,6 +30,7 @@ export const Header = () => {
                     fontSize: 9,
                     marginTop: -2,
                     fontFamily: "Montserrat-SemiBold",
+                    color: COLORS.gray7,
                 }}>Intercessory Network</Text>
 
             </View>
