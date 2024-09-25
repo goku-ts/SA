@@ -19,7 +19,7 @@ A mould can be a predefined shape or style used to shape objects according to it
 
 We were created after the mould (image and likeness) of God from the beginning, yet after the fall, man came under a world and system, that had control over him, to reshape and remold him against God's original intent.
 
-We can be, and have been shaped by so many moulds throughout our lives. From how we were raised, where we grew up, our friends, relationships, culture and tradition, our beliefs, traditional and social media, or even our own life experiences and especialy the things we hear.
+We can be, and have been shaped by so many moulds throughout our lives. From how we were raised, where we grew up, our friends, relationships, culture and tradition, our beliefs, traditional and social media, or even our own life experiences and especially the things we hear.
 
 We look like how we have been shaped. Not just our physical appearance, but our mindset, our speech, our attitude and response towards life, our fears and expectations.
 
@@ -95,7 +95,7 @@ export const PRAYERS = [
         "id": 1,
         "slug": "breaking-out-of-the-mould",
         "title": `### **#1: Breaking out of the mould**`,
-        "description": `Declarative prayer on breaking out of wrong and negative patters and breaking through in Christ Jesus, by taking our place in Him.`,
+        "description": `Declarative prayer on breaking out of wrong and negative patterns and breaking through in Christ Jesus, by taking our place in Him.`,
         "author": "HGb",
         "date": "Sep 23, 2024",
         "content": `
