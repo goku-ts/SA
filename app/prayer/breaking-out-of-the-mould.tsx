@@ -8,6 +8,7 @@ import { NavLink } from '../../component/NavLink';
 import RegularText from '../../component/RegularText';
 
 import Content from '../../component/Content';
+import ShareButton from '../../component/ShareButton';
 import loadFont from '../../constants/loadFont';
 import { COLORS } from '../../constants/theme';
 import { PRAYERS } from '../../data/Data';
@@ -107,6 +108,7 @@ export default function Details() {
 
                     </View>
                 </View>
+                <ShareButton url={"https://spiritarmy.com/prayer/breaking-out-of-the-mould?id=1"} />
                 <View style={{
                     height: 100
                 }} />

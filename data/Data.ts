@@ -100,7 +100,9 @@ export const PRAYERS = [
         "date": "Sep 23, 2024",
         "content": `
 These prayers are linked to **[this post.](https://spiritarmy.com/post/1?id=1)**
-
+&nbsp;
+&nbsp;
+&nbsp;
 
 _And Nathanael said to him, **“Can anything good come out of Nazareth?”** Philip said to him, “Come and see.” John 1:46_.
 
@@ -180,6 +182,10 @@ export const FAITH = [
         "content": `
 
 These Faith Confessions are linked to **[this post.](https://spiritarmy.com/post/1?id=1)**    
+&nbsp;
+&nbsp;
+&nbsp;
+
 
 I am born to conform to the image of Christ.  -_**Romans 8:29**_ 
 
