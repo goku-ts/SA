@@ -27,10 +27,10 @@ export const Header = () => {
                 </AppText>
 
                 <Text style={{
-                    fontSize: 9,
+                    fontSize: 7,
                     marginTop: -2,
                     fontFamily: "Montserrat-SemiBold",
-                    color: COLORS.gray7,
+                    color: COLORS.gray5,
                 }}>Intercessory Network</Text>
 
             </View>

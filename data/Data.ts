@@ -105,34 +105,48 @@ These prayers are linked to **[this post.](https://spiritarmy.com/post/1?id=1)**
 &nbsp;
 
 _And Nathanael said to him, **“Can anything good come out of Nazareth?”** Philip said to him, “Come and see.” John 1:46_.
+&nbsp;
 
 _Therefore if any man be in Christ, he is a **new creature**: old things are passed away; behold, **all things** are become **new**. - 2 Corinthians 5:17_
+&nbsp;
 
 _But we all, with uncovered face beholding as in a glass the glory of the Lord, **are changed into the same image**, from **glory to glory**, even as by the Spirit of the Lord.- 2 Corinthians 3:18._
-        
+&nbsp;
+      
 Father thank you for giving me Jesus as my ultimate mould, and breaking me out of all negative moulds, in Jesus' name.
+&nbsp;
 
 I pray by revelation of who I am in Christ Jesus and I take my stand and authority in His name.
+&nbsp;
 
 
 I hereby insist that I break out of any mould that has shaped me outside the image and character of Christ.
+&nbsp;
 
 From wrong beliefs, to wrong words spoken over me, to every known and hidden pattern of negativity in my household and environment, I break out of them all in Jesus name.
+&nbsp;
 
 I am in Christ, I am new!, I cannot and will not be shaped my the moulds of my past!
+&nbsp;
 
 I ask that by the help of the Holy Spirit, I will be shaped after the mould of the image of Christ day by day.
+&nbsp;
 
 Negative cultural and traditional moulds, you will no longer shape my life, be broken in Jesus name!
+&nbsp;
 
 Negative and traumatic  past experiences, you will no longer shape my life, loose your power over me in Jesus name!
+&nbsp;
 
 Wrong beliefs and mindsets,  you will no longer shape my life, loose your hold over me in Jesus name!
+&nbsp;
 
 Ungodly and negative words spoken to me and over me, you will no longer shape my life, loose your hold over me in Jesus name!
+&nbsp;
 
 I take on the mould of Christ, to shape my life, my health, my family, my future and all that relates to me in Jesus name.
-        
+&nbsp;
+    
         `,
     },
     //     {
@@ -188,32 +202,49 @@ These Faith Confessions are linked to **[this post.](https://spiritarmy.com/post
 
 
 I am born to conform to the image of Christ.  -_**Romans 8:29**_ 
+&nbsp;
 
 He is my ultimate mould and I am shaped after Him. - _**2 Corinthians 3:18**_
+&nbsp;
 
 As I take my place and stand in Him, all other moulds are broken now! - _**2 Corinthians 5:17**_
+&nbsp;
 
 It is in Him I live, move and have my being.- _**Acts 17:28**_
+&nbsp;
 
 I have and manifest the mind of Christ. I renounce all negative mindsets, and wrong thinking patterns in Jesus name. - _**1 Corinthians 2:16**_
+&nbsp;
 
 I think thoughts of peace, abundance and provision. - _**Philippians 4:8**_
+&nbsp;
 
 I am in Christ, all things are new in my life!. What has died is coming alive!
+&nbsp;
 
 I live a new life, I think new thoughts of grace and peace.- _**Philippians 4:7**_
+&nbsp;
 
 I am moulded in Christ after His everlasting love and abounding grace. - _**Jeremiah 31:3**_,  _**Ephesians 2:8-9**_
+&nbsp;
 
 In Him, i am limitless and boundless, i grow! I expand! I advance! I fulfil purpose and destiny. - _**Philippians 4:13**_ 
+&nbsp;
 
 In Him, i am empowered to break every limitation. - _**Philippians 4:13**_, _**Ephesians 3:20**_
+&nbsp;
 
 Every barrier to my progress, advancements, promotions and my next level, is removed; I move forward in victory. - _**Isaiah 45:2**_, _**Isaiah 45:2**_
-        
+&nbsp;
+    
 I am no longer bound by fear or failure; I step boldly into my destiny. - _**2 Timothy 1:7**_, _**Romans 8:15**_
+&nbsp;
 
 I reject every limitation placed on me by the words and action of others; in Christ, I am boundless and limitless!.- _**Galatians 5:1**_, _**1 John 4:4**_
+&nbsp;
+&nbsp;
+&nbsp;
+
         `,
     },
     //     {
