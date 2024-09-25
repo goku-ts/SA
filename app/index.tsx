@@ -92,7 +92,7 @@ export default function Home() {
                     description={`${item.description}`}
                     title={`${item.title}`}
                     date={`${item.date}`}
-                    path={`${item.id}`}
+                    path={`${item.slug}`}
                     data={item}
                   />
                 );

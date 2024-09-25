@@ -43,7 +43,7 @@ export default function FaithCard({
     <TouchableOpacity
       onPress={() =>
         router.push({
-          pathname: `/faith/${data.id}`,
+          pathname: `/faith/${data.slug}`,
           params: {
             id: data.id,
           },
@@ -141,51 +141,6 @@ export default function FaithCard({
                 </AppText>
               </View>
             </View>
-            {/* <Link href={{
-                            pathname: `post/${path}`,
-                            params: {
-                                id: data?.id
-                            }
-                        }} asChild>
-                            <Pressable
-                                // onPress={() => router.push({
-                                //     pathname: `${path}`,
-                                //     params: {
-                                //         id: data.id,
-                                //         title: data.title,
-                                //         $description: data.description,
-                                //         $author: data.author,
-                                //         $date: data.date,
-                                //         $content: data.content,
-                                //         $image: data.image
-
-                                //     }
-                                // })}
-                                style={{
-                                    flexDirection: "row",
-                                    justifyContent: "center",
-                                    alignItems: "center",
-                                    backgroundColor: COLORS.gray7,
-                                    height: 25,
-                                    padding: 10,
-                                    borderRadius: 10
-                                }}>
-
-                                <AppText>
-                                    <Text style={{
-                                        color: COLORS.gray1
-                                    }}>Read More</Text>
-                                </AppText>
-                                <Image source={arrow_rignt}
-                                    style={{
-                                        height: 15,
-                                        width: 15,
-                                        tintColor: COLORS.gray1,
-                                        marginLeft: 5
-                                    }} />
-
-                            </Pressable>
-                        </Link> */}
           </View>
         </View>
       </View>

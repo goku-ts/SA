@@ -6,6 +6,7 @@ import { blog1 } from "../constants/images";
 export const POST = [
     {
         "id": 1,
+        "slug": "breaking-out-of-the-mould",
         "title": ` ### **Breaking out of the mould.**`,
         "description": `We can be, and have been shaped by so many moulds throughout our lives. From how we were raised, where we grew up, our friends, relationships, culture and tradition, our beliefs, traditional media, or even our own life experiences....`,
         "author": "HGb",
@@ -92,6 +93,7 @@ As we take our place in Christ, with faith in His love and finishes works, we br
 export const PRAYERS = [
     {
         "id": 1,
+        "slug": "breaking-out-of-the-mould",
         "title": `### **#1: Breaking out of the mould**`,
         "description": `Declarative prayer on breaking out of wrong and negative patters and breaking through in Christ Jesus, by taking our place in Him.`,
         "author": "HGb",
@@ -170,6 +172,7 @@ I take on the mould of Christ, to shape my life, my health, my family, my future
 export const FAITH = [
     {
         "id": 1,
+        "slug": "breaking-out-of-the-mould",
         "title": `### **#Faith: I'm Breaking out of the mould.**`,
         "description": `Spirit filled confessions rooted in the revelation scripture`,
         "author": "HGb",
@@ -178,7 +181,7 @@ export const FAITH = [
 
 These Faith Confessions are linked to **[this post.](https://spiritarmy.com/post/1?id=1)**    
 
-I am born to conform to the image of Christ. - _**Romans 8:29**_ 
+I am born to conform to the image of Christ.  -_**Romans 8:29**_ 
 
 He is my ultimate mould and I am shaped after Him. - _**2 Corinthians 3:18**_
 

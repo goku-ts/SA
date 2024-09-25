@@ -10,7 +10,7 @@ export const Header = () => {
             flexDirection: "row",
             alignItems: "center",
             marginBottom: 30,
-            marginLeft: -15
+            marginLeft: -5
         }}>
             <Image source={fire} style={{
                 width: 25,
