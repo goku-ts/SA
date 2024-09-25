@@ -29,7 +29,7 @@ export const ActiveLink = ({ href, name, icon }:
 
                 <AppText>
                     <Text style={{
-                        fontSize: 16,
+                        fontSize: 15,
                         marginRight: 5,
                         marginLeft: 5
                     }}>

@@ -16,7 +16,7 @@ export default function Content({ children }: { children: any }) {
 const markdown = StyleSheet.create({
     body: {
         fontFamily: "Montserrat-Regular",
-        fontSize: 18,
+        fontSize: 17,
         lineHeight: 22
     },
     heading3: {
