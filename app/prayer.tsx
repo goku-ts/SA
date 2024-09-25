@@ -9,7 +9,6 @@ import { ActiveLink } from "../component/ActiveLink";
 import { Header } from "../component/Header";
 import { NavLink } from "../component/NavLink";
 import PrayerCard from "../component/PrayerCard";
-import { prayer } from "../constants/images";
 import loadFont from "../constants/loadFont";
 import { PRAYERS } from "../data/Data";
 
@@ -18,6 +17,8 @@ export default function Prayer() {
 
   const isMobile = width < 600;
   const bigScreen = width > 1000;
+
+  let Prayer = PRAYERS.reverse()
 
   const NavBar = () => {
     loadFont();
@@ -31,7 +32,7 @@ export default function Prayer() {
         }}
       >
         <NavLink href="/" name="Home" />
-        <ActiveLink href="prayer" name="Prayer" icon={prayer} />
+        <ActiveLink href="prayer" name="Prayer" />
         <NavLink href="faith" name="Faith Wall" />
         {/* <NavLink href="ebooks" name="Books" />
         <NavLink href="wallpapers" name="Wallpapers" /> */}
@@ -78,7 +79,7 @@ export default function Prayer() {
             }
           >
             {PRAYERS &&
-              PRAYERS.map((item) => {
+              Prayer.map((item) => {
                 return (
                   <PrayerCard
                     desktop={isMobile ? false : true}
