@@ -38,8 +38,8 @@ _But we all, with uncovered face beholding as in a glass the glory of the Lord, 
 
 As we take our place in Christ, with faith in His love and finishes works, we break out of every wrong mould and take on the mould of the image and character of Christ.
 
-**[Prayers connected to this post.](https://spiritarmy.com/prayer/1?id=1)**
-**[Faith Confessions connected to this post.](https://spiritarmy.com/faith/1?id=1)**
+**[Prayers connected to this post.](https://spiritarmy.com/prayer/breaking-out-of-the-mould?id=1)**
+**[Faith Confessions connected to this post.](https://spiritarmy.com/faith/breaking-out-of-the-mould?id=1)**
 
 
 

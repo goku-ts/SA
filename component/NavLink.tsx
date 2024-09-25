@@ -10,7 +10,7 @@ export const NavLink = ({ href, name }: { href: string, name: string }) => {
         }}>
             <Link href={href} style={{}}>
                 <AppText>
-                    <Text style={{ fontSize: 15 }}>
+                    <Text style={{ fontSize: 14 }}>
                         {name}
                     </Text>
                 </AppText>

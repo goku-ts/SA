@@ -2,7 +2,7 @@
 const home = require("../assets/icons/house-bold.png")
 const ebook = require("../assets/icons/book-bold.png")
 const wallpaper = require("../assets/icons/image-bold.png")
-const prayer = require("../assets/icons/fire-bold.png")
+
 const quote = require("../assets/icons/quotes-bold.png")
 const arrow_rignt = require("../assets/icons/arrow-right-bold.png")
 const blog1: any = require("../assets/broken.jpg")
@@ -12,5 +12,5 @@ const shield: any = require("../assets/icons/shield-chevron-fill.png")
 const close = require("../assets/icons/close.png")
 
 
-export { arrow_rignt, blog1, close, cross, ebook, fire, home, prayer, quote, shield, wallpaper }
+export { arrow_rignt, blog1, close, cross, ebook, fire, home, quote, shield, wallpaper }
 
