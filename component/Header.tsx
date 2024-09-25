@@ -27,7 +27,7 @@ export const Header = () => {
                 </AppText>
 
                 <Text style={{
-                    fontSize: 7,
+                    fontSize: 9,
                     marginTop: -2,
                     fontFamily: "Montserrat-SemiBold",
                     color: COLORS.gray5,
