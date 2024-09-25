@@ -14,7 +14,7 @@ export const Header = () => {
         }}>
             <Image source={fire} style={{
                 width: 25,
-                height: 30,
+                height: 25,
                 marginRight: 3,
                 tintColor: COLORS.orange6,
             }} />
@@ -26,12 +26,12 @@ export const Header = () => {
                     }}>Spirit Army</Text>
                 </AppText>
 
-                <Text style={{
+                {/* <Text style={{
                     fontSize: 9,
                     marginTop: -2,
                     fontFamily: "Montserrat-SemiBold",
                     color: COLORS.gray5,
-                }}>Intercessory Network</Text>
+                }}>Intercessory Network</Text> */}
 
             </View>
         </View>
