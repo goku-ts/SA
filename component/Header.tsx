@@ -9,7 +9,7 @@ export const Header = () => {
         <View style={{
             flexDirection: "row",
             alignItems: "center",
-            marginBottom: 30,
+            marginBottom: 10,
             marginLeft: -5
         }}>
             <Image source={fire} style={{
@@ -18,12 +18,21 @@ export const Header = () => {
                 marginRight: 3,
                 tintColor: COLORS.orange6,
             }} />
-            <AppText>
+            <View>
+                <AppText>
+                    <Text style={{
+                        // fontWeight: "bold",
+                        fontSize: 17
+                    }}>Spirit Army</Text>
+                </AppText>
+
                 <Text style={{
-                    // fontWeight: "bold",
-                    fontSize: 17
-                }}>Spirit Army</Text>
-            </AppText>
+                    fontSize: 9,
+                    marginTop: -2,
+                    fontFamily: "Montserrat-SemiBold",
+                }}>Intercessory Network</Text>
+
+            </View>
         </View>
     )
 }
