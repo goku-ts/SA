@@ -57,7 +57,7 @@ export const PRAYERS = [
         "title": `### **Psalms for Courage and Boldness**`,
         "slug": "psalms-for-courage",
         "description": `Deep meditative prayer for anxiety and fear, rooted in scripture.`,
-        "author": "HGb",
+        "author": "Petition",
         "date": "July 2, 2024",
         "content": `
 
@@ -168,7 +168,7 @@ _**Psalm 34:4**_
         "title": `### **Psalms for Protection**`,
         "slug": "psalms-for-protection",
         "description": `Deep meditative prayer for anxiety and fear, rooted in scripture.`,
-        "author": "HGb",
+        "author": "Petition",
         "date": "July 2, 2024",
         "content": `
 

@@ -60,8 +60,9 @@ export default function PrayerCard({
           // borderWidth: 1,
           borderRadius: 10,
           borderColor: COLORS.gray3,
-          padding: 10,
-          marginTop: 20,
+          padding: 5,
+          paddingLeft: 15,
+          marginTop: 10,
           //paddingHorizontal: hPadding,
         }}
       >
@@ -100,7 +101,7 @@ export default function PrayerCard({
               flexDirection: "row",
               justifyContent: "space-between",
               alignItems: "center",
-              padding: 5,
+              //padding: 5,
               marginTop: 5,
               paddingLeft: desktop ? 20 : 0,
             }}
@@ -115,32 +116,34 @@ export default function PrayerCard({
                 paddingLeft: desktop ? 0 : 0,
               }}
             >
+
               <View style={styles.author}>
                 <AppText>
                   <Text
                     style={{
                       fontFamily: "Montserrat-Regular",
                       fontSize: 13,
-                      color: COLORS.gray9,
-                    }}
-                  >
-                    {author}
-                  </Text>
-                </AppText>
-              </View>
-              <View style={styles.author}>
-                <AppText>
-                  <Text
-                    style={{
-                      fontFamily: "Montserrat-Regular",
-                      fontSize: 13,
-                      color: COLORS.gray9,
+                      color: COLORS.green8,
                     }}
                   >
                     {date}
                   </Text>
                 </AppText>
               </View>
+              <View style={[styles.author, { backgroundColor: COLORS.orange1 }]}>
+                <AppText>
+                  <Text
+                    style={{
+                      fontFamily: "Montserrat-Regular",
+                      fontSize: 13,
+                      color: COLORS.orange4,
+                    }}
+                  >
+                    {author}
+                  </Text>
+                </AppText>
+              </View>
+
             </View>
           </View>
         </View>
@@ -151,7 +154,7 @@ export default function PrayerCard({
 
 const styles = StyleSheet.create({
   author: {
-    marginLeft: 5,
+    marginRight: 10,
     height: 20,
     alignItems: "center",
     justifyContent: "center",
