@@ -169,7 +169,7 @@ _**Psalm 34:4**_
         "title": `### **Psalms for Protection**`,
         "slug": "psalms-for-protection",
         "description": `Deep meditative prayer for anxiety and fear, rooted in scripture.`,
-        "author": "Petition",
+        "author": "Thanksgiving",
         "time": "2",
         "date": "July 2, 2024",
         "content": `

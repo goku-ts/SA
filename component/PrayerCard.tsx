@@ -119,39 +119,12 @@ export default function PrayerCard({
               }}
             >
 
-              <View style={styles.author}>
-                <AppText>
-                  <Text
-                    style={{
-                      fontFamily: "Montserrat-Regular",
-                      fontSize: 13,
-                      color: COLORS.green8,
-                    }}
-                  >
-                    {date}
-                  </Text>
-                </AppText>
-              </View>
-              <View style={[styles.author, { backgroundColor: COLORS.orange1 }]}>
-                <AppText>
-                  <Text
-                    style={{
-                      fontFamily: "Montserrat-Regular",
-                      fontSize: 13,
-                      color: COLORS.orange6,
-                    }}
-                  >
-                    {author}
-                  </Text>
-                </AppText>
-              </View>
-
               <View style={[styles.author, { backgroundColor: COLORS.gray2 }]}>
                 <AppText>
                   <Text
                     style={{
                       fontFamily: "Montserrat-Regular",
-                      fontSize: 13,
+                      fontSize: 12,
                       color: COLORS.gray8,
                     }}
                   >
@@ -159,6 +132,41 @@ export default function PrayerCard({
                   </Text>
                 </AppText>
               </View>
+
+              <View style={[styles.author, { backgroundColor: COLORS.green1, }]}>
+                <AppText>
+                  <Text
+                    style={{
+                      fontFamily: "Montserrat-Regular",
+                      fontSize: 12,
+                      color: COLORS.green8,
+                    }}
+                  >
+                    {date}
+                  </Text>
+                </AppText>
+              </View>
+              <View style={[styles.author, {
+                backgroundColor: author === "HGb" ? COLORS.red1
+                  : author === "Thanksgiving" ? COLORS.teal1
+                    : COLORS.orange1
+              }]}>
+                <AppText>
+                  <Text
+                    style={{
+                      fontFamily: "Montserrat-Regular",
+                      fontSize: 12,
+                      color: author === "HGb" ? COLORS.red5
+                        : author === "Thanksgiving" ? COLORS.teal5
+                          : COLORS.orange5,
+                    }}
+                  >
+                    {author}
+                  </Text>
+                </AppText>
+              </View>
+
+
 
             </View>
           </View>
@@ -175,7 +183,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     padding: 5,
-    backgroundColor: COLORS.green1,
+
     marginBottom: 5,
     borderRadius: 5,
   },
