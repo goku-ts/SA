@@ -35,8 +35,8 @@ export default function Details() {
                 marginTop: 10,
                 marginBottom: 30
             }}>
-                <NavLink href='/' name="Home" />
-                <NavLink href='../prayer' name='Prayer' />
+                {/* <NavLink href='/' name="Home" /> */}
+                <NavLink href='/' name='Prayer' />
                 <ActiveLink href="../faith" name="Faith Wall" />
                 {/* <NavLink href='../ebooks' name='Books' />
                 <NavLink href='../wallpapers' name='Wallpapers' /> */}

@@ -6,35 +6,33 @@ import {
 } from "react-native";
 
 import { ActiveLink } from "../component/ActiveLink";
-import ContentCard from "../component/ContentCard";
 import { Header } from "../component/Header";
-import { home } from "../constants/images";
-
 import { NavLink } from "../component/NavLink";
+import PrayerCard from "../component/PrayerCard";
 import loadFont from "../constants/loadFont";
-import { POST } from "../data/Data";
+import { PRAYERS } from "../data/Data";
 
-export default function Home() {
-  loadFont();
-
+export default function Prayer() {
   const { width } = useWindowDimensions();
 
-  const isMobile = width < 700;
+  const isMobile = width < 600;
   const bigScreen = width > 1000;
 
+  //let Prayer = PRAYERS.reverse()
+
   const NavBar = () => {
+    loadFont();
+
     return (
       <View
         style={{
           flexDirection: "row",
           alignItems: "center",
           marginTop: 10,
-          marginBottom: 20,
-
         }}
       >
-        <ActiveLink href="/" name="Home" icon={home} />
-        <NavLink href="prayer" name="Prayer" />
+        {/* <NavLink href="/" name="Home" /> */}
+        <ActiveLink href="/" name="Prayer" />
         <NavLink href="faith" name="Faith Wall" />
         {/* <NavLink href="ebooks" name="Books" />
         <NavLink href="wallpapers" name="Wallpapers" /> */}
@@ -43,34 +41,36 @@ export default function Home() {
   };
 
   return (
-    <ScrollView
-      showsVerticalScrollIndicator={false}
-      style={[
-        styles.container,
-        {
-          paddingHorizontal: bigScreen ? width / 5 : isMobile ? 10 : width / 20,
-        },
-      ]}
-    >
-      <View>
+    <ScrollView showsVerticalScrollIndicator={false} style={{
+      flex: 1,
+      backgroundColor: "#f4f4f5",
+
+    }}>
+      <View
+        style={[
+          styles.container,
+          {
+            paddingHorizontal: bigScreen
+              ? width / 5
+              : isMobile
+                ? 10
+                : width / 20,
+          },
+        ]}
+      >
         <View style={styles.nav_area}>
           <Header />
           <NavBar />
         </View>
 
         <View
-          style={{
-            //alignItems: "center",
-          }}
+          style={
+            {
+
+              // alignItems: "center",
+            }
+          }
         >
-          {/* <QouteCard
-                        text='But you will receive power when the Holy Spirit
-                        comes on you; and you will be my witnesses in Jerusalem,
-                        and in all Judea and Samaria, and to the ends of the earth.
-                        '
-                        reference=' - Romans 1:8'
-                        h_padding={bigScreen ? width / 5 : isMobile ? 10 : width / 20}
-                    /> */}
           <View
             style={
               {
@@ -78,22 +78,19 @@ export default function Home() {
               }
             }
           >
-            {POST &&
-              POST.map((item) => {
+            {PRAYERS &&
+              PRAYERS.map((item) => {
                 return (
-                  <ContentCard
-                    image={item.image}
+                  <PrayerCard
                     desktop={isMobile ? false : true}
-                    // hPadding={bigScreen ? width / 5 : isMobile ? 10 : width / 20}
+                    //hPadding={bigScreen ? width / 5 : isMobile ? 10 : width / 20}
                     //size={isMobile ? undefined : width - 15}
-                    // ImageSize={isMobile ? undefined : width - 35}
                     key={item.id}
-                    author={item.author}
-                    description={`${item.description}`}
-                    title={`${item.title}`}
-                    date={`${item.date}`}
-                    path={`${item.slug}`}
                     data={item}
+                    title={item?.title}
+                    description={item?.description}
+                    author={item?.author}
+                    date={item?.date}
                   />
                 );
               })}
@@ -115,7 +112,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#f4f4f5",
   },
   nav_area: {
-    padding: 15,
-    marginBottom: 20,
+    margin: 15,
+    marginBottom: 50,
   },
 });

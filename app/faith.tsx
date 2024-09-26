@@ -29,8 +29,8 @@ export default function Faith() {
                     marginTop: 10,
                 }}
             >
-                <NavLink href="/" name="Home" />
-                <NavLink href="prayer" name="Prayer" />
+                {/* <NavLink href="/" name="Home" /> */}
+                <NavLink href="/" name="Prayer" />
                 <ActiveLink href="faith" name="Faith Wall" />
                 {/* <NavLink href="ebooks" name="Books" />
           <NavLink href="wallpapers" name="Wallpapers" /> */}

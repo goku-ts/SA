@@ -61,66 +61,67 @@ export const PRAYERS = [
         "date": "July 2, 2024",
         "content": `
 
-**The Lord is my light and my salvation—whom shall I fear? The Lord is the stronghold of my life—of whom shall I be afraid?**  
-_**Psalm 27:1**_
+**The Lord is my light and my salvation—whom shall I fear? The Lord is the stronghold of my life—of whom shall I be afraid?** - _**Psalm 27:1**_
 
  
-> Lord, thank You for being my light and salvation. Because of You, I have no reason to fear.
+> Lord, thank You for being my light and salvation. Because of who you are to me, i have no reason to fear!. You are my stronghold. I am hidden in you! If you cannot be broken, i will not be broken.
+ The fear of mortal men is broken over me!. 
+ Every darkness around me and my atmosphere is leaving now, because You are my light!
 
 &nbsp;  
-> Heavenly Father, You are the stronghold of my life. Help me to walk confidently, knowing You are with me.
+> Lord, You are the stronghold of my life. Help me to walk in this life with heavenly inspired confidence. 
+ Because You are with me, i will face life and win!
+
 
 &nbsp;  
-> God, I trust in Your protection. Give me courage to face every challenge without fear.
+> Lord, I trust in Your protection over me and my family. Give us the courage to face every challenge without fear.
 
 
 &nbsp;
-**Be strong and take heart, all you who hope in the Lord.**  
-_**Psalm 31:24**_
+**Be strong and take heart, all you who hope in the Lord.** - _**Psalm 31:24**_
 
  
-> Lord, I place my hope in You. Strengthen my heart and fill me with courage.
+> Lord, i put my hope and trust in You. Strengthen my heart and fill me with courage.
+ I rejoice and take heart, because i know You cannot and will not fail me.
 
 &nbsp;  
-> Father, help me to remain strong and courageous, knowing that my hope is anchored in You.
+> Father, help me daily to remain strong and courageous. My hope is anchored in You.
 
 &nbsp;  
-> God, I trust that with You by my side, I can be bold and unwavering in every situation.
+> Lord, i know and trust that with You by my side, I can be bold and unwavering in every situation.
 
 
  &nbsp; 
-**The Lord is with me; I will not be afraid. What can mere mortals do to me?**  
-_**Psalm 118:6**_
+**The Lord is with me; I will not be afraid. What can mere mortals do to me?**  - _**Psalm 118:6**_
 
  
 > Lord, I thank You for Your constant presence. With You, I have no reason to fear.
 
 &nbsp;  
-> Father, help me to walk in boldness, knowing that no human opposition can stand against me when You are with me.
+> Help me to walk in boldness, knowing that no human opposition can stand against me when You are with me.
 
 &nbsp;  
-> God, I declare that I will not be afraid, for You are my strength and shield.
+> Lord, I declare that I will not be afraid, for You are my strength and shield.
 
 
  &nbsp; 
-**When I am afraid, I put my trust in you.**  
-_**Psalm 56:3**_
+**When I am afraid, I put my trust in you.**  - _**Psalm 56:3**_
 
 
 > Lord, in moments of fear, I choose to place my trust in You alone.
 
 &nbsp;  
-> Heavenly Father, strengthen me to rise above fear and walk in boldness as I trust in Your protection.
+> Father, strengthen me to rise above fear and walk in boldness as I trust in Your protection.
 
 &nbsp;  
-> God, help me to trust You completely, knowing that You are greater than any fear I face.
+> Lord, help me to trust You completely, knowing that You are greater than any fear I face.
 
 
-
+&nbsp; 
 **Though an army besiege me, my heart will not fear; though war break out against me, even then I will be confident.**  
 _**Psalm 27:3**_
 
-&nbsp;  
+ 
 > Lord, thank You for giving me courage even in the face of overwhelming odds.
 
 &nbsp;  
@@ -188,7 +189,7 @@ _**Psalm 23:1-3**_
 > God, I thank You for Your protection and care that refreshes my soul and restores my strength.
 
 
-
+&nbsp;
 **He will cover you with his feathers, and under his wings you will find refuge; his faithfulness will be your shield and rampart.**  
 _**Psalm 91:4**_
 
