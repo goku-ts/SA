@@ -41,6 +41,7 @@ export default function PrayerCard({
 
   return (
     <TouchableOpacity
+      activeOpacity={0.8}
       onPress={() =>
         router.push({
           pathname: `/prayer/${data.slug}`,

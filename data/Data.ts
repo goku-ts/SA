@@ -48,45 +48,6 @@ As we take our place in Christ, with faith in His love and finishes works, we br
         `,
         "image": blog1
     },
-    //     {
-    //         "id": 2,
-    //         "title": `### **"Abide in my love..." : Living in the Father's love**`,
-    //         "description": `Sometimes, accepting what we feel we don't deserve, can make us feel unworthy and guilty.
-    // God's love however, is beyond our understanding. I believe it is a mystery that cannot be explained...`,
-    //         "author": "HGb",
-    //         "date": "July 2, 2024",
-    //         "content": `
-
-
-    // **John 15:9 ISV "As the Father loves me, so do I love you. So abide in my love"**.
-
-    // Sometimes, accepting what we feel we don't deserve, can make us feel unworthy and guilty.
-
-    // God's love however, is beyond our understanding. I believe it is a mystery that cannot be explained. When we feel most undeserving of His love, that’s when He sees us as most deserving. **Romans 5:8 says, "But God shows His love for us in that while we were still sinners, Christ died for us"**.
-
-    // "As the Father loves me, so I also love you..." One of my most conscious confessions is "As long as the Father loves Jesus, Jesus loves me". Will the Father ever stop loving Jesus? No. So will Jesus ever stop loving me? No.
-
-    // Jesus reassures His disciples that His love for them is not based on their actions, but on His Father’s love for Him. Their part was to learn to abide in His love.
-
-    // His love is **unconditional**. However, abiding in His love depends on us. Verse 10 says, "If you keep my words, **you will abide in my love**, just as I have kept my Father’s words and abide in His love."
-
-    // As we keep His words in our hearts daily, we will abide in His love daily.
-
-    // **Let's Pray :**
-    // Lord, thank you for loving me unconditionally. You look beyond my weaknesses and love me either way. I accept your love for me and I ask that you will help me stay in this love, by keeping your words daily. I ask for the grace to fellowship with Your Word and the Spirit. Thank you Lord for answering me, because of your love for me. Amen
-
-    // **Acknowledge with me:**
-    // I am deeply loved by the Father.
-    // His love shines upon me.
-    // His Words are an anchor to my soul
-    // His love is my trademark ! 
-
-    //         `,
-    //         "image": blog
-    //     },
-
-
-
 ]
 
 
@@ -987,9 +948,1066 @@ I take on the mould of Christ, to shape my life, my health, my family, my future
 
 export const FAITH = [
     {
+        "id": 1,
+        "slug": "i-am-loved-by-the-father",
+        "title": `### **I am loved by the Father!**`,
+        "description": `Spirit filled confessions rooted in the revelation scripture`,
+        "author": "HGb",
+        "date": "Sep 23, 2024",
+        "content": `
+
+
+
+
+
+**See what great love the Father has lavished on us, that we should be called children of God!**  
+_**1 John 3:1**_
+
+
+> I declare that I am loved by the Father, who calls me His child and lavishes His love upon me.
+ 
+&nbsp;  
+> I confess that I am deeply cherished by God, and I live in the security of His perfect love. 
+ 
+&nbsp;  
+> I walk confidently, knowing that the Father’s love defines who I am—His beloved child.
+
+
+&nbsp;
+&nbsp;    
+**But God demonstrates His own love for us in this: While we were still sinners, Christ died for us.**  
+_**Romans 5:8**_
+
+  
+> I declare that the Father’s love for me is unconditional, proven by Christ’s sacrifice on the cross.  
+
+&nbsp;
+> I confess that God’s love is not based on my performance, but on His grace and mercy.
+ 
+&nbsp;
+> I live in the freedom of knowing that I am fully loved and accepted by the Father, despite my imperfections.
+
+
+&nbsp;
+&nbsp;
+**The Lord your God is with you, the Mighty Warrior who saves. He will take great delight in you; in His love, He will no longer rebuke you, but will rejoice over you with singing.**  
+_**Zephaniah 3:17**_
+
+  
+> I declare that God delights in me and rejoices over me with singing, for I am loved by the Father.
+ 
+&nbsp;
+> I confess that God’s love for me is constant and unwavering, and He takes great joy in my life.
+ 
+&nbsp;
+> I rest in the assurance that the Father’s love protects me and surrounds me every day.
+
+
+&nbsp;
+&nbsp;
+**I have loved you with an everlasting love; I have drawn you with unfailing kindness.**  
+_**Jeremiah 31:3**_
+
+  
+> I declare that I am loved with an everlasting love, and God’s kindness towards me never fails.
+ 
+&nbsp;
+> I confess that nothing can separate me from the Father’s love, for His love for me is eternal. 
+ 
+&nbsp;
+> I walk in the knowledge that the Father’s love continually draws me closer to Him with kindness and grace.
+
+
+&nbsp;
+&nbsp;
+**Neither height nor depth, nor anything else in all creation, will be able to separate us from the love of God that is in Christ Jesus our Lord.**  
+_**Romans 8:39**_
+
+  
+> I declare that nothing in all creation can separate me from the love of the Father, which is in Christ Jesus.
+ 
+&nbsp;
+> I confess that no circumstance, fear, or challenge can take me away from God’s love, which surrounds me always.
+ 
+&nbsp;
+> I live boldly, knowing that the Father’s love is inseparable and unbreakable in my life.
+
+
+&nbsp;
+&nbsp;
+**As the Father has loved me, so have I loved you. Now remain in my love.**  
+_**John 15:9**_
+
+ 
+> I declare that I am loved by the Father in the same way He loves Jesus, and I remain in His love.
+ 
+&nbsp; 
+> I confess that God’s love for me is pure and perfect, and I choose to dwell in the fullness of that love daily.
+ 
+&nbsp; 
+> I embrace the Father’s love, and I let His love flow through me to others, reflecting His heart.
+
+
+&nbsp; 
+&nbsp; 
+**For God so loved the world that He gave His one and only Son, that whoever believes in Him shall not perish but have eternal life.**  
+_**John 3:16**_
+
+  
+> I declare that the Father’s love is so great that He gave His Son for me, granting me eternal life. 
+ 
+&nbsp;
+> I confess that I am deeply valued by the Father, and His love for me is demonstrated through the gift of Jesus.  
+
+&nbsp;
+> I live in the assurance that the Father’s love brings life, hope, and salvation into my life.
+
+
+&nbsp;
+&nbsp;
+**You, Lord, are forgiving and good, abounding in love to all who call to you.**  
+_**Psalm 86:5**_
+
+  
+> I declare that the Father is abounding in love towards me, and His forgiveness and goodness surround me.
+ 
+&nbsp;
+> I confess that God’s love is abundant and limitless, and I experience it in every moment of my life.
+ 
+&nbsp;
+> I walk in the knowledge that the Father’s love flows generously towards me, filling my heart with peace.
+
+
+&nbsp;
+&nbsp;
+**The steadfast love of the Lord never ceases; His mercies never come to an end.**  
+_**Lamentations 3:22**_
+
+  
+> I declare that the Father’s steadfast love for me never ceases, and His mercies are new every morning.
+ 
+&nbsp;
+> I confess that no matter what happens, God’s love for me is constant and never-ending.  
+
+&nbsp;
+> I live in the overflowing abundance of the Father’s love, which renews and restores me each day.
+
+
+
+        `,
+    },
+    {
         "id": 2,
+        "slug": "christ-is-my-wisdom",
+        "title": `### **Christ is my Wisdom!**`,
+        "description": `Spirit filled confessions rooted in the revelation scripture`,
+        "author": "HGb",
+        "date": "Sep 23, 2024",
+        "content": `
+
+
+
+
+
+**Christ has become for us wisdom from God—that is, our righteousness, holiness, and redemption.**  
+_**1 Corinthians 1:30**_
+
+
+> I declare that Christ is my wisdom, and I have access to divine insight and understanding through Him.
+ 
+&nbsp;  
+> I confess that I do not lean on my own knowledge, for Christ Himself is my wisdom and guide.
+ 
+&nbsp;  
+> I am made wise in all my decisions and actions because the wisdom of God is at work within me through Christ.
+
+
+&nbsp;  
+&nbsp;  
+**If any of you lacks wisdom, you should ask God, who gives generously to all without finding fault, and it will be given to you.**  
+_**James 1:5**_
+
+  
+> I affirm that whenever I need wisdom, I can ask God, and He gives it to me generously without hesitation. 
+
+ &nbsp; 
+> I declare that Christ, who lives in me, is the source of all wisdom I need in every situation. 
+ 
+&nbsp;
+> I receive divine wisdom in abundance, for God is faithful to supply all that I need through Christ.
+
+
+&nbsp;
+&nbsp;
+**The fear of the Lord is the beginning of wisdom, and knowledge of the Holy One is understanding.**  
+_**Proverbs 9:10**_
+
+  
+> I declare that Christ is the foundation of all true wisdom in my life, and I walk in the fear and reverence of the Lord.
+ 
+&nbsp;
+> I confess that through Christ, I gain understanding of God's ways and live in alignment with His will.
+ 
+&nbsp;
+> I choose to honor and follow Christ, knowing that He is the source of wisdom that leads to life and success.
+
+
+&nbsp;
+&nbsp;
+**In Christ are hidden all the treasures of wisdom and knowledge.**  
+_**Colossians 2:3**_
+
+  
+> I declare that all the treasures of wisdom and knowledge are mine through Christ, and I have access to them at all times.
+ 
+&nbsp;
+> I confess that I am never without direction or insight, for Christ reveals to me the wisdom of God in every situation. 
+ 
+&nbsp;
+> I walk in confidence, knowing that Christ's wisdom guides me in every decision and path I take.
+
+
+&nbsp;
+&nbsp;
+**For the Lord gives wisdom; from His mouth come knowledge and understanding.**  
+_**Proverbs 2:6**_
+
+  
+> I declare that the Lord gives me wisdom, and His Word fills me with knowledge and understanding.
+ 
+&nbsp;
+> I confess that through Christ, I receive divine wisdom that surpasses human understanding.
+ 
+&nbsp;
+> I rely on God’s wisdom to lead me, and I am filled with the knowledge of His will in every area of my life.
+
+
+&nbsp;
+**I have more insight than all my teachers, for I meditate on Your statutes.**  
+_**Psalm 119:99**_
+
+  
+> I declare that through Christ’s wisdom, I have insight beyond what I could gain from the world.  
+
+&nbsp;
+> I confess that by meditating on God's Word, I grow in wisdom and understanding in every area of my life.  
+
+&nbsp;
+> I am equipped with divine wisdom that surpasses all human knowledge, for Christ is my wisdom.
+
+
+&nbsp;
+&nbsp;
+**The wisdom that comes from heaven is first of all pure; then peace-loving, considerate, submissive, full of mercy and good fruit, impartial and sincere.**  
+_**James 3:17**_
+
+  
+> I declare that the wisdom of Christ in me is pure, peace-loving, and full of mercy and good fruit. 
+ 
+&nbsp;
+> I confess that Christ's wisdom helps me to live with kindness, fairness, and sincerity in all my relationships. 
+ 
+&nbsp;
+> I walk in divine wisdom, producing good fruit in every area of my life, as Christ’s nature is formed in me.
+
+
+&nbsp;
+&nbsp;
+**Trust in the Lord with all your heart and lean not on your own understanding; in all your ways submit to Him, and He will make your paths straight.**  
+_**Proverbs 3:5-6**_
+
+  
+> I declare that I trust in Christ's wisdom and not my own understanding, submitting to Him in all my ways. 
+ 
+&nbsp;
+> I confess that because Christ is my wisdom, He leads me on straight paths, and I do not stumble.  
+
+&nbsp;
+> I choose to rely on Christ’s guidance, knowing that His wisdom leads me into success and purpose.
+
+
+&nbsp;
+&nbsp;
+**My goal is that they may be encouraged in heart and united in love, so that they may have the full riches of complete understanding, in order that they may know the mystery of God, namely, Christ.**  
+_**Colossians 2:2**_
+
+&nbsp; 
+> I declare that Christ reveals to me the mysteries of God, and I walk in the riches of complete understanding.
+ 
+&nbsp; 
+> I confess that I grow in the knowledge of God through Christ, who is the wisdom of God manifested in my life.  
+
+&nbsp; 
+> I seek Christ above all, knowing that He is the key to all wisdom, understanding, and revelation in my life.
+
+
+
+
+
+        `,
+    },
+    {
+        "id": 3,
+        "slug": "i-am-helped-from-above",
+        "title": `### **I am helped from above!**`,
+        "description": `Spirit filled confessions rooted in the revelation scripture`,
+        "author": "HGb",
+        "date": "Sep 23, 2024",
+        "content": `
+
+
+
+
+
+**My help comes from the Lord, the Maker of heaven and earth.**  
+_**Psalm 121:2**_
+
+  
+> I declare that my help comes directly from the Lord, the Creator of all things.  
+
+&nbsp;
+> I will not fear or be discouraged, for the One who made heaven and earth is my helper.  
+
+&nbsp;
+> I trust in God's divine help in every situation, knowing that He will not fail me.
+
+
+&nbsp;
+&nbsp;
+**The Lord is my helper; I will not be afraid.**  
+_**Hebrews 13:6**_
+
+ 
+> I confess that I have no reason to fear, for the Lord Himself is my helper and my shield.  
+
+&nbsp; 
+> I declare that I walk with confidence, knowing that God's help is always available to me.  
+
+&nbsp;
+> I refuse to be anxious, for God’s divine assistance strengthens and supports me in every challenge.
+
+
+&nbsp; 
+&nbsp; 
+**Fear not, for I am with you; be not dismayed, for I am your God. I will strengthen you, yes, I will help you.**  
+_**Isaiah 41:10**_
+
+ 
+> I declare that I will not fear or be dismayed, for God Himself has promised to help me. 
+ 
+&nbsp; 
+> I receive strength from the Lord and trust in His ever-present help in every area of my life.  
+
+&nbsp; 
+> I walk in boldness, knowing that God’s hand of help upholds me in every situation.
+
+
+&nbsp; 
+&nbsp; 
+**Surely God is my help; the Lord is the one who sustains me.**  
+_**Psalm 54:4**_
+
+  
+> I affirm that God is my helper, sustaining me through every trial and difficulty.  
+
+&nbsp;
+> I declare that I am never without help, for God’s divine hand is always working in my favor.  
+
+&nbsp;
+> I am strengthened and empowered by the help of the Lord, who sustains me with His mighty power.
+
+
+&nbsp;
+&nbsp;
+**The Holy Spirit helps me in my weakness.**  
+_**Romans 8:26**_
+
+
+> I confess that in my moments of weakness, the Holy Spirit helps me and strengthens me.
+ 
+&nbsp;  
+> I declare that I am not alone, for the Holy Spirit intercedes for me and provides the help I need.  
+
+&nbsp;  
+> I am empowered by the Spirit’s help, overcoming every obstacle with His strength and guidance.
+
+
+&nbsp;  
+&nbsp;  
+**The Lord is my strength and my shield; my heart trusts in Him, and He helps me.**  
+_**Psalm 28:7**_
+
+  
+> I declare that my heart trusts in the Lord, and He helps me in all my ways.  
+
+&nbsp;
+> I confess that God is my shield and my helper, protecting and guiding me through life’s challenges.  
+
+&nbsp;
+> I walk in peace, knowing that I am always supported and helped by the Lord in every situation.
+
+
+&nbsp;
+&nbsp;
+**I lift up my eyes to the mountains—where does my help come from? My help comes from the Lord.**  
+_**Psalm 121:1-2**_
+
+  
+> I lift my eyes to the Lord, from whom all my help flows, and trust in His divine provision. 
+ 
+&nbsp;
+> I declare that I am helped from above, and no circumstance can overwhelm me because God is my helper.  
+
+&nbsp;
+> I will not rely on human strength or resources, for my true help comes from the Lord, who is faithful.
+
+
+&nbsp;
+&nbsp;
+**God is our refuge and strength, a very present help in trouble.**  
+_**Psalm 46:1**_
+
+  
+> I declare that God is my refuge and strength, always present to help me in times of need.  
+
+&nbsp;
+> I confess that I am never without help, for God is with me in every trouble, delivering and supporting me.  
+
+&nbsp;
+> I walk in confidence, knowing that the Lord’s help is available to me at every moment.
+
+
+&nbsp;
+&nbsp;
+**The Lord upholds all who fall and lifts up all who are bowed down.**  
+_**Psalm 145:14**_
+
+ 
+> I affirm that even in times of weakness or failure, the Lord is my help, lifting me up and restoring me.
+ 
+&nbsp; 
+> I declare that I am not defeated, for God’s hand helps me rise from every setback.  
+
+&nbsp; 
+> I trust in God's power to uphold me, for His help is my strength and my victory.
+
+
+
+
+
+        `,
+    },
+    {
+        "id": 4,
+        "slug": "i-am-backed-by-divine-power",
+        "title": `### **I am backed by Divine Power!**`,
+        "description": `Spirit filled confessions rooted in the revelation scripture`,
+        "author": "HGb",
+        "date": "Sep 23, 2024",
+        "content": `
+
+
+
+
+**God is my refuge and strength, an ever-present help in trouble.**  
+_**Psalm 46:1**_
+
+ 
+> I declare that I am supported and strengthened by the divine power of God in every situation.  
+
+&nbsp; 
+> I confess that I am never alone, for God's power is always present to help and deliver me.  
+
+&nbsp; 
+> I walk with boldness and confidence, knowing that God's strength is my constant source of support.
+
+
+&nbsp; 
+&nbsp; 
+**2. The Lord will fight for me; I need only to be still.**  
+_**Exodus 14:14**_
+
+ 
+> I affirm that I am backed by the mighty power of God, and He fights my battles for me.
+ 
+&nbsp; 
+> I declare that I will not fear or be anxious, for God's power goes before me, clearing the way.  
+
+&nbsp; 
+> I rest in the assurance that God’s divine power is working on my behalf, even when I am still.
+
+
+&nbsp; 
+&nbsp; 
+**3. Greater is He who is in me than he who is in the world.**  
+_**1 John 4:4**_
+
+  
+> I declare that the power of God within me is greater than any force of darkness in this world.
+ 
+&nbsp;
+> I walk with divine authority, knowing that God's power enables me to overcome every challenge.  
+
+&nbsp;
+> I will not be intimidated by any opposition, for God's power in me is stronger than any adversary.
+
+
+&nbsp;
+&nbsp;
+**4. The same power that raised Christ from the dead dwells in me.**  
+_**Romans 8:11**_
+
+  
+> I confess that the resurrection power of God lives in me, empowering me to overcome every obstacle.
+ 
+&nbsp;
+> I walk in the fullness of divine power, knowing that I am equipped to face any challenge with victory.  
+
+&nbsp;
+> I declare that no situation is too difficult, for the power of God within me brings life and transformation.
+
+
+&nbsp;
+&nbsp;
+**5. The Lord gives strength to His people; the Lord blesses His people with peace.**  
+_**Psalm 29:11**_
+
+ 
+> I am backed by the strength of God, and His power brings me peace in every circumstance. 
+ 
+&nbsp; 
+> I declare that I am strong and unshakable because I am upheld by the divine power of God.  
+
+&nbsp; 
+> I walk in peace, knowing that God's power covers and protects me from all harm.
+
+
+&nbsp;
+&nbsp;
+**6. I can do all things through Christ who strengthens me.**  
+_**Philippians 4:13**_
+
+  
+> I declare that I am empowered by Christ to achieve all that He has called me to do.  
+
+&nbsp;
+> I confess that divine power flows through me, enabling me to overcome every limitation.  
+
+&nbsp;
+> I will not doubt my abilities, for I am strengthened by God's power in all things.
+
+
+&nbsp;
+&nbsp;
+**7. God’s power is made perfect in my weakness.**  
+_**2 Corinthians 12:9**_
+
+  
+> I declare that in moments of weakness, God’s divine power is made perfect in me. 
+ 
+&nbsp;
+> I confess that I do not rely on my own strength, but I am backed by the unlimited power of God. 
+ 
+&nbsp;
+> I am confident that God's power will lift me up in every trial and challenge I face.
+
+
+&nbsp;
+&nbsp;
+**8. His divine power has given us everything we need for life and godliness.**  
+_**2 Peter 1:3**_
+
+  
+> I confess that God's divine power has equipped me with everything I need for success in life and spiritual growth. 
+ 
+&nbsp;
+> I declare that I lack nothing, for God's power provides all the resources necessary to fulfill His purpose for me. 
+ 
+&nbsp;
+> I walk in the abundance of God’s power, fully supplied and empowered to thrive in every area of life.
+
+
+&nbsp;
+&nbsp;
+**9. With God, all things are possible.**  
+_**Matthew 19:26**_
+
+  
+> I declare that I am backed by the power of God, and there is no limit to what I can achieve in Him.
+ 
+&nbsp;
+> I confess that what seems impossible to others is possible for me because of God's divine power at work in my life.
+ 
+&nbsp;
+> I approach every situation with faith, knowing that nothing is too hard for God’s power to accomplish.
+
+
+
+
+
+
+        `,
+    },
+    {
+        "id": 5,
+        "slug": "i-walk-in-divine-health",
+        "title": `### **I walk in Divine Health!**`,
+        "description": `Spirit filled confessions rooted in the revelation scripture`,
+        "author": "HGb",
+        "date": "Sep 23, 2024",
+        "content": `
+
+
+
+
+
+**By His stripes, I am healed.**  
+_**Isaiah 53:5**_
+
+  
+> I declare that I walk in divine health because Jesus bore my sickness and pain on the cross. 
+ 
+&nbsp;
+> I confess that every part of my body functions in perfect harmony, free from disease and illness.  
+
+&nbsp;
+> I stand on the truth that Jesus' sacrifice has secured my healing, and I receive it by faith.
+
+
+&nbsp;  
+&nbsp;  
+**Beloved, I pray that you may prosper in all things and be in health, just as your soul prospers.**  
+_**3 John 1:2**_
+
+
+> I affirm that God's will for me is to prosper and live in divine health, as my soul prospers in Him.
+ 
+&nbsp;  
+> I confess that I am strong and healthy in both my body and spirit, empowered to fulfill God’s purpose for my life.
+ 
+&nbsp;  
+> I receive abundant health in every area of my life, knowing that God desires my well-being.
+
+
+&nbsp;  
+&nbsp;  
+**The Spirit of Him who raised Jesus from the dead dwells in me, giving life to my mortal body.**  
+_**Romans 8:11**_
+
+ 
+> I declare that the same Spirit who raised Jesus from the dead quickens and strengthens my body, bringing life and health to every cell.
+ 
+&nbsp; 
+> I walk in divine health because the power of the Holy Spirit energizes and sustains my physical body.  
+
+&nbsp; 
+> I reject sickness and disease, knowing that the life of God flows through me, revitalizing my entire being.
+
+
+&nbsp; 
+&nbsp; 
+**I will restore you to health and heal your wounds, declares the Lord.**  
+_**Jeremiah 30:17**_
+
+  
+> I confess that God is restoring my health, and I receive His promise of healing for every part of my body. 
+
+&nbsp;
+> I declare that I am healed and made whole by the power of God's Word, and I walk in that wholeness daily.  
+
+&nbsp;
+> I believe that every wound and infirmity in my body is healed, and I live in the fullness of divine health.
+
+
+&nbsp;
+&nbsp;
+**I bless the Lord, who forgives all my sins and heals all my diseases.**  
+_**Psalm 103:2-3**_
+
+ 
+> I confess that all my diseases are healed, and I walk in divine health because of God's forgiveness and love.  
+
+&nbsp; 
+> I declare that I will not forget God's benefits, for He has redeemed me and healed me from every affliction.  
+
+&nbsp; 
+> I thank God for His healing power at work in my life, keeping me in perfect health every day.
+
+
+&nbsp; 
+&nbsp; 
+**The Lord will take away from you all sickness.**  
+_**Deuteronomy 7:15**_
+
+ 
+> I declare that sickness has no place in my body because the Lord has taken it away from me.  
+
+&nbsp; 
+> I walk in divine health, free from every affliction, because God's Word is true and powerful.  
+
+&nbsp; 
+> I trust in God's protection over my health, knowing that He is faithful to keep me whole and well.
+
+
+&nbsp; 
+&nbsp; 
+**My body is the temple of the Holy Spirit, and I honor God with it.**  
+_**1 Corinthians 6:19-20**_
+
+  
+> I confess that my body is a temple of the Holy Spirit, and it is strong, healthy, and full of life.  
+
+&nbsp;
+> I declare that I honor God by walking in divine health, and I take care of my body as a vessel of His presence.  
+
+&nbsp;
+> I live in perfect health because the Holy Spirit dwells within me, renewing and restoring my body daily.
+
+
+
+
+
+
+        `,
+    },
+    {
+        "id": 6,
+        "slug": "i-am-the-righteousness",
+        "title": `### **I am the Righteousness of God!**`,
+        "description": `Spirit filled confessions rooted in the revelation scripture`,
+        "author": "HGb",
+        "date": "Sep 23, 2024",
+        "content": `
+
+
+
+
+
+
+**I am the righteousness of God in Christ Jesus.**  
+_**2 Corinthians 5:21**_
+
+ 
+> I declare that through Christ, I am made righteous and stand blameless before God.
+ 
+&nbsp; 
+> I reject any condemnation or guilt because I am clothed in Christ's righteousness.  
+
+&nbsp; 
+> I will live boldly, knowing that my identity is rooted in the righteousness of God.
+
+
+&nbsp; 
+&nbsp; 
+**No weapon formed against me shall prosper, and every tongue that rises against me in judgment, I shall condemn, for my righteousness is from the Lord.**  
+_**Isaiah 54:17**_
+
+ 
+> I affirm that I am protected by God's righteousness, and no attack against me can succeed.  
+
+&nbsp; 
+> I declare that my righteousness comes from God, and I am confident in His defense over my life.  
+
+&nbsp; 
+> I stand victorious, knowing that every accusation is silenced by the righteousness of Christ in me.
+
+
+&nbsp; 
+&nbsp; 
+**He made me holy and blameless in His sight through Christ's sacrifice.**  
+_**Colossians 1:22**_
+
+  
+> I confess that I am holy, without blemish, and free from accusation because of Jesus' sacrifice.  
+
+&nbsp;
+> I reject any feelings of unworthiness, for I have been made righteous through Christ's blood.  
+
+&nbsp;
+> I will walk in the assurance that I am blameless before God, fully accepted and loved.
+
+
+&nbsp;
+&nbsp;
+**For in the gospel, the righteousness of God is revealed—a righteousness that is by faith from first to last.**  
+_**Romans 1:17**_
+
+  
+> I declare that I live by faith in the righteousness that God has given me through Christ.  
+
+&nbsp;
+> I will trust in God's grace, knowing that His righteousness is revealed in my life through faith.  
+
+&nbsp;
+> I walk confidently, knowing that I am justified and made righteous by faith, not by works.
+
+
+&nbsp;
+&nbsp;
+**Through faith in Jesus Christ, I have been declared righteous by God.**  
+_**Romans 3:22**_
+
+  
+> I affirm that my righteousness comes through faith in Jesus, not by my own efforts or works.  
+
+&nbsp;
+> I stand in God's righteousness, fully justified and accepted in His sight.  
+
+&nbsp;
+> I will live with a sense of peace and security, knowing that I am righteous through Christ.
+
+
+
+
+
+
+        `,
+    },
+    {
+        "id": 7,
+        "slug": "i-am-light",
+        "title": `### **I am Light, I shine!**`,
+        "description": `Spirit filled confessions rooted in the revelation scripture`,
+        "author": "HGb",
+        "date": "Sep 23, 2024",
+        "content": `
+
+
+
+
+
+**I am the light of the world. A city set on a hill cannot be hidden.**  
+_**Matthew 5:14**_
+
+ 
+> I declare that I shine brightly for all to see, reflecting the love of Christ in my actions.
+ 
+&nbsp; 
+> I am unashamed of the light within me, and I will let it illuminate the darkness around me.  
+
+&nbsp; 
+> I am a beacon of hope and truth, guiding others toward the salvation found in Jesus.
+
+
+&nbsp; 
+&nbsp; 
+**The darkness cannot overcome the light.**  
+_**John 1:5**_
+
+  
+> I confess that no darkness can overshadow me, for the light of Christ within me is greater than any challenge I face.  
+
+&nbsp;
+> I stand firm in the knowledge that the light in me dispels all fear and anxiety.  
+
+&nbsp;
+> I am empowered to bring light to dark situations, overcoming evil with goodness.
+
+
+&nbsp;
+&nbsp;
+**I walk in the light as He is in the light, and I have fellowship with one another.**  
+_**1 John 1:7**_
+
+  
+> I affirm that my life is marked by genuine relationships and community because I choose to walk in the light.  
+
+&nbsp;
+> I invite the light of Christ to shine through me, fostering unity and love among my brothers and sisters.  
+
+&nbsp;
+> I will not isolate myself in darkness but will engage in fellowship that encourages and uplifts.
+
+
+&nbsp;
+&nbsp;
+**4. I have been called out of darkness into His marvelous light.**  
+_**1 Peter 2:9**_
+
+ 
+> I declare that I have been transformed by His grace, and I now reflect His glorious light to those around me.  
+
+&nbsp; 
+> I embrace my identity as a child of light, living in the fullness of God’s promises.  
+
+&nbsp; 
+> I will not return to darkness, for I am set free to walk in the light of His love.
+
+
+&nbsp; 
+&nbsp; 
+**The Lord is my light and my salvation; whom shall I fear?**  
+_**Psalm 27:1**_
+
+  
+> I confess that fear has no hold on me because I am surrounded by the light of God's presence. 
+ 
+&nbsp;
+> I will walk boldly into each day, knowing that the Lord is my protection and my guide.  
+
+&nbsp;
+> I am confident in His power to deliver me from any darkness that tries to encroach upon my life.
+
+
+&nbsp;
+&nbsp;
+**I have the authority to tread upon serpents and scorpions, and over all the power of the enemy.**  
+_**Luke 10:19**_
+
+ 
+> I declare that I rule over darkness and will not be intimidated by any attack of the enemy.  
+
+&nbsp; 
+> I walk in authority, knowing that I have the power to overcome any challenge that comes my way.  
+
+&nbsp; 
+> I proclaim victory over every fear, doubt, and darkness that seeks to distract me from my purpose.
+
+
+&nbsp; 
+&nbsp; 
+**I am an ambassador for Christ, reflecting His light in a dark world.**  
+_**2 Corinthians 5:20**_
+
+  
+> I confess that I represent His kingdom wherever I go, bringing hope and light to those in need.
+ 
+&nbsp;
+> I will boldly share the message of Christ, shining His light into the lives of others.  
+
+&nbsp;
+> I am committed to living out my calling as a light bearer in my community and beyond.
+
+
+&nbsp;
+&nbsp;
+**The Spirit of God within me is greater than he who is in the world.**  
+_**1 John 4:4**_
+
+  
+> I declare that the light of the Holy Spirit empowers me to overcome any darkness I encounter.  
+
+&nbsp;
+> I trust that the strength of God within me is sufficient to face any challenge.  
+
+&nbsp;
+> I will not be swayed by the darkness, for I am equipped to shine brightly in any circumstance.
+
+
+&nbsp;
+&nbsp;
+**I will not be overcome by evil, but I will overcome evil with good.**  
+_**Romans 12:21**_
+
+  
+> I confess that I choose to respond to darkness with the light of goodness and righteousness.
+ 
+&nbsp;
+> I will take every opportunity to shine the light of Christ, bringing hope to those around me.  
+
+&nbsp;
+> I am determined to stand firm against evil, knowing that goodness always triumphs.
+
+
+&nbsp;
+&nbsp;
+**I am a child of the light; I will live as a child of the light.**  
+_**Ephesians 5:8**_
+
+  
+> I affirm that my actions and words will reflect the love and light of Jesus to everyone I meet.  
+
+&nbsp;
+> I commit to living a life that honors God and shines brightly for others to see.  
+
+&nbsp;
+> I will be intentional about being a light in my home, workplace, and community.
+
+
+&nbsp;
+&nbsp;
+**I have been given the armor of light to combat the forces of darkness.**  
+_**Romans 13:12**_
+
+  
+> I declare that I will wear the armor of light and stand firm against the darkness that tries to encroach on my life. 
+ 
+&nbsp;
+> I am equipped to fight spiritual battles with the light of Christ as my weapon.  
+
+&nbsp;
+> I trust in God's protection as I walk in the light, knowing that I am covered by His grace.
+
+
+&nbsp;
+&nbsp;
+**I am equipped to shine in the midst of darkness, bringing hope to the hopeless.**  
+_**Isaiah 61:1**_
+
+  
+> I confess that my life will be a beacon of hope, illuminating the way for others through the love of Christ. 
+ 
+&nbsp;
+> I will respond to the needs of those around me, sharing the light of hope and healing.  
+
+&nbsp;
+> I am committed to being a source of encouragement and support in a world that often feels dark.
+
+
+&nbsp;
+&nbsp;
+**I will arise and shine, for my light has come, and the glory of the Lord has risen upon me.**  
+_**Isaiah 60:1**_
+
+  
+> I declare that I will step into the purpose God has for me, shining brightly in a world that needs His light.  
+
+&nbsp;
+> I will not shrink back but will boldly proclaim the glory of the Lord in my life.  
+
+&nbsp;
+> I am filled with confidence, knowing that my light brings honor to God's name.
+
+
+&nbsp;
+&nbsp;
+**My light will shine before others, that they may see my good deeds and glorify my Father in heaven.**  
+_**Matthew 5:16**_
+
+  
+> I affirm that my life will reflect God’s goodness, pointing others to Him through my actions. 
+ 
+&nbsp;
+> I commit to living out my faith authentically so that others can see the light of Christ in me.
+ 
+&nbsp;
+> I will use my gifts and talents to serve others, shining my light for His glory.
+
+
+&nbsp;
+&nbsp;
+**In Christ, I am more than a conqueror, ruling over darkness with His light.**  
+_**Romans 8:37**_
+
+  
+> I declare that I will walk in victory, knowing that I am empowered by Christ to overcome every challenge.  
+
+&nbsp;
+> I will not allow circumstances to dictate my joy, for I am a conqueror through Christ.  
+
+&nbsp;
+> I am committed to living a victorious life, shining His light brightly in every situation.
+
+
+
+
+
+        `,
+    },
+    {
+        "id": 8,
         "slug": "breaking-out-of-the-mould",
-        "title": `### **#Faith: I'm Breaking out of the mould.**`,
+        "title": `### **I'm Breaking out of the mould.**`,
         "description": `Spirit filled confessions rooted in the revelation scripture`,
         "author": "HGb",
         "date": "Sep 23, 2024",
@@ -1001,85 +2019,54 @@ These Faith Confessions are linked to **[this post.](https://spiritarmy.com/post
 &nbsp;
 
 
-I am born to conform to the image of Christ.  -_**Romans 8:29**_ 
-&nbsp;
+> I am born to conform to the image of Christ.  -_**Romans 8:29**_ 
 
-He is my ultimate mould and I am shaped after Him. - _**2 Corinthians 3:18**_
 &nbsp;
+> He is my ultimate mould and I am shaped after Him. - _**2 Corinthians 3:18**_
 
-As I take my place and stand in Him, all other moulds are broken now! - _**2 Corinthians 5:17**_
 &nbsp;
+> As I take my place and stand in Him, all other moulds are broken now! - _**2 Corinthians 5:17**_
 
-It is in Him I live, move and have my being.- _**Acts 17:28**_
 &nbsp;
+> It is in Him I live, move and have my being.- _**Acts 17:28**_
 
-I have and manifest the mind of Christ. I renounce all negative mindsets, and wrong thinking patterns in Jesus name. - _**1 Corinthians 2:16**_
 &nbsp;
+> I have and manifest the mind of Christ. I renounce all negative mindsets, and wrong thinking patterns in Jesus name. - _**1 Corinthians 2:16**_
 
-I think thoughts of peace, abundance and provision. - _**Philippians 4:8**_
 &nbsp;
+> I think thoughts of peace, abundance and provision. - _**Philippians 4:8**_
 
-I am in Christ, all things are new in my life!. What has died is coming alive!
 &nbsp;
+> I am in Christ, all things are new in my life!. What has died is coming alive!
 
-I live a new life, I think new thoughts of grace and peace.- _**Philippians 4:7**_
 &nbsp;
+> I live a new life, I think new thoughts of grace and peace.- _**Philippians 4:7**_
 
-I am moulded in Christ after His everlasting love and abounding grace. - _**Jeremiah 31:3**_,  _**Ephesians 2:8-9**_
 &nbsp;
+> I am moulded in Christ after His everlasting love and abounding grace. - _**Jeremiah 31:3**_,  _**Ephesians 2:8-9**_
 
-In Him, i am limitless and boundless, i grow! I expand! I advance! I fulfil purpose and destiny. - _**Philippians 4:13**_ 
 &nbsp;
+> In Him, i am limitless and boundless, i grow! I expand! I advance! I fulfil purpose and destiny. - _**Philippians 4:13**_ 
 
-In Him, i am empowered to break every limitation. - _**Philippians 4:13**_, _**Ephesians 3:20**_
 &nbsp;
+> In Him, i am empowered to break every limitation. - _**Philippians 4:13**_, _**Ephesians 3:20**_
 
-Every barrier to my progress, advancements, promotions and my next level, is removed; I move forward in victory. - _**Isaiah 45:2**_, _**Isaiah 45:2**_
 &nbsp;
-    
-I am no longer bound by fear or failure; I step boldly into my destiny. - _**2 Timothy 1:7**_, _**Romans 8:15**_
-&nbsp;
+> Every barrier to my progress, advancements, promotions and my next level, is removed; I move forward in victory. - _**Isaiah 45:2**_, _**Isaiah 45:2**_
 
-I reject every limitation placed on me by the words and action of others; in Christ, I am boundless and limitless!.- _**Galatians 5:1**_, _**1 John 4:4**_
+&nbsp; 
+> I am no longer bound by fear or failure; I step boldly into my destiny. - _**2 Timothy 1:7**_, _**Romans 8:15**_
+
+&nbsp;
+> I reject every limitation placed on me by the words and action of others; in Christ, I am boundless and limitless!.- _**Galatians 5:1**_, _**1 John 4:4**_
+
+
 &nbsp;
 &nbsp;
 &nbsp;
 
         `,
     },
-    //     {
-    //         "id": 2,
-    //         "title": `### **FAITH**`,
-    //         "description": `Deep meditative prayer for anxiety and fear, rooted in scripture.`,
-    //         "author": "HGb",
-    //         "date": "July 2, 2024",
-    //         "content": `
-
-    // **John 15:9 ISV "As the Father loves me, so do I love you. So abide in my love"**.
-
-    // Sometimes, accepting what we feel we don't deserve, can make us feel unworthy and guilty.
-
-    // God's love however, is beyond our understanding. I believe it is a mystery that cannot be explained. When we feel most undeserving of His love, that’s when He sees us as most deserving. **Romans 5:8 says, "But God shows His love for us in that while we were still sinners, Christ died for us"**.
-
-    // "As the Father loves me, so I also love you..." One of my most conscious confessions is "As long as the Father loves Jesus, Jesus loves me". Will the Father ever stop loving Jesus? No. So will Jesus ever stop loving me? No.
-
-    // Jesus reassures His disciples that His love for them is not based on their actions, but on His Father’s love for Him. Their part was to learn to abide in His love.
-
-    // His love is **unconditional**. However, abiding in His love depends on us. Verse 10 says, "If you keep my words, **you will abide in my love**, just as I have kept my Father’s words and abide in His love."
-
-    // As we keep His words in our hearts daily, we will abide in His love daily.
-
-    // **Let's Pray :**
-    // Lord, thank you for loving me unconditionally. You look beyond my weaknesses and love me either way. I accept your love for me and I ask that you will help me stay in this love, by keeping your words daily. I ask for the grace to fellowship with Your Word and the Spirit. Thank you Lord for answering me, because of your love for me. Amen
-
-    // **Acknowledge with me:**
-    // I am deeply loved by the Father.
-    // His love shines upon me.
-    // His Words are an anchor to my soul
-    // His love is my trademark ! 
-
-    //         `
-    //     },
 ]
 
 

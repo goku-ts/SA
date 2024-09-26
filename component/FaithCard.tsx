@@ -41,6 +41,7 @@ export default function FaithCard({
 
   return (
     <TouchableOpacity
+      activeOpacity={0.8}
       onPress={() =>
         router.push({
           pathname: `/faith/${data.slug}`,
