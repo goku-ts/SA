@@ -147,18 +147,20 @@ export default function PrayerCard({
                 </AppText>
               </View>
               <View style={[styles.author, {
-                backgroundColor: author === "HGb" ? COLORS.red1
-                  : author === "Thanksgiving" ? COLORS.teal1
-                    : COLORS.orange1
+                backgroundColor: author === "Warfare" ? COLORS.red1
+                  : author === "Petition" ? COLORS.orange1
+                    : author === "Intercession" ? COLORS.teal1
+                      : COLORS.orange1
               }]}>
                 <AppText>
                   <Text
                     style={{
                       fontFamily: "Montserrat-Regular",
                       fontSize: 12,
-                      color: author === "HGb" ? COLORS.red5
-                        : author === "Thanksgiving" ? COLORS.teal5
-                          : COLORS.orange5,
+                      color: author === "Warfare" ? COLORS.red4
+                        : author === "Petition" ? COLORS.orange5
+                          : author === "Intercession" ? COLORS.teal9
+                            : COLORS.orange5,
                     }}
                   >
                     {author}

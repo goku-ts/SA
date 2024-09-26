@@ -169,7 +169,7 @@ _**Psalm 34:4**_
         "title": `### **Psalms for Protection**`,
         "slug": "psalms-for-protection",
         "description": `Deep meditative prayer for anxiety and fear, rooted in scripture.`,
-        "author": "Thanksgiving",
+        "author": "Gratitude",
         "time": "2",
         "date": "July 2, 2024",
         "content": `
@@ -284,7 +284,7 @@ _**Psalm 34:7**_
         "title": `### **Psalms for Anxiety**`,
         "slug": "psalms-for-anxiety",
         "description": `Deep meditative prayer for anxiety and fear, rooted in scripture.`,
-        "author": "HGb",
+        "author": "Warfare",
         "time": "2",
         "date": "July 2, 2024",
         "content": `
@@ -407,7 +407,7 @@ _**Psalm 121:3**_
         "title": `### **Prayers for Heavenly Provision**`,
         "slug": "heavenly-provision",
         "description": `Deep meditative prayer for anxiety and fear, rooted in scripture.`,
-        "author": "HGb",
+        "author": "Intercession",
         "time": "2",
         "date": "July 2, 2024",
         "content": `
