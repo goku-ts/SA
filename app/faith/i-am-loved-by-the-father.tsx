@@ -1,6 +1,6 @@
 import { useLocalSearchParams } from 'expo-router';
 import React from 'react';
-import { ScrollView, StyleSheet, useWindowDimensions, View } from 'react-native';
+import { ScrollView, StyleSheet, Text, useWindowDimensions, View } from 'react-native';
 import { ActiveLink } from '../../component/ActiveLink';
 import AppText from '../../component/AppText';
 import { Header } from '../../component/Header';
@@ -83,16 +83,32 @@ export default function Details() {
                         marginBottom: 30
 
                     }}>
-                        <View style={styles.author}>
-                            <RegularText>
+                        <View style={[styles.author,
+                        {
+                            backgroundColor:
+                                FAITH[post - 1]?.author === "Faith Confession" ? COLORS.orange1
+                                    : FAITH[post - 1]?.author === "Declaration" ? COLORS.teal1
+                                        : COLORS.orange1
+                        }
+                        ]}>
+                            <Text
+                                style={{
+                                    fontFamily: "Montserrat-Regular",
+                                    fontSize: 14,
+                                    color:
+                                        FAITH[post - 1]?.author === "Faith Confession" ? COLORS.orange5
+                                            : FAITH[post - 1]?.author === "Declaration" ? COLORS.teal9
+                                                : COLORS.orange5,
+                                }}
+                            >
                                 {FAITH[post - 1]?.author}
-                            </RegularText>
+                            </Text>
                         </View>
                         <View style={[styles.author, {
                             marginLeft: 20
                         }]}>
                             <RegularText>
-                                {FAITH[post - 1]?.date}
+                                {`${FAITH[post - 1]?.time} mins read`}
                             </RegularText>
                         </View>
 

@@ -56,10 +56,10 @@ export const PRAYERS = [
         "id": 1,
         "title": `### **Psalms for Courage and Boldness**`,
         "slug": "psalms-for-courage",
-        "description": `Deep meditative prayer for anxiety and fear, rooted in scripture.`,
+        "description": `Prayer for heavenly courage and boldness,from the book of Psalms.`,
         "author": "Petition",
-        "time": "2",
-        "date": "July 2, 2024",
+        "time": "3",
+        "date": "Sep 25, 2024",
         "content": `
 
 **The Lord is my light and my salvation—whom shall I fear? The Lord is the stronghold of my life—of whom shall I be afraid?** - _**Psalm 27:1**_
@@ -168,10 +168,10 @@ _**Psalm 34:4**_
         "id": 2,
         "title": `### **Psalms for Protection**`,
         "slug": "psalms-for-protection",
-        "description": `Deep meditative prayer for anxiety and fear, rooted in scripture.`,
-        "author": "Gratitude",
-        "time": "2",
-        "date": "July 2, 2024",
+        "description": `Warfare prayers for divine protection, from the book of Psalms.`,
+        "author": "Petition",
+        "time": "5",
+        "date": "Sep 25, 2024",
         "content": `
 
 
@@ -283,10 +283,10 @@ _**Psalm 34:7**_
         "id": 3,
         "title": `### **Psalms for Anxiety**`,
         "slug": "psalms-for-anxiety",
-        "description": `Deep meditative prayer for anxiety and fear, rooted in scripture.`,
-        "author": "Warfare",
+        "description": `Prayers to combat the feeling anxiety and fear, from the book of Psalms.`,
+        "author": "Petition",
         "time": "2",
-        "date": "July 2, 2024",
+        "date": "Sep 24, 2024",
         "content": `
 
 
@@ -406,10 +406,10 @@ _**Psalm 121:3**_
         "id": 4,
         "title": `### **Prayers for Heavenly Provision**`,
         "slug": "heavenly-provision",
-        "description": `Deep meditative prayer for anxiety and fear, rooted in scripture.`,
-        "author": "Intercession",
-        "time": "2",
-        "date": "July 2, 2024",
+        "description": `Prayers for seeking earthly supply from our Heavenly source`,
+        "author": "Petition",
+        "time": "3",
+        "date": "Sep 24, 2024",
         "content": `
 
 
@@ -526,10 +526,10 @@ _**2 Corinthians 9:8**_
         "id": 5,
         "title": `### **Prayers for Peace and Sound Mind**`,
         "slug": "peace-and-sound-mind",
-        "description": `Deep meditative prayer for anxiety and fear, rooted in scripture.`,
-        "author": "HGb",
+        "description": `Prayers rooted in scripture to seek peace and a sound mind`,
+        "author": "Petition",
         "time": "2",
-        "date": "July 2, 2024",
+        "date": "Sep 22, 2024",
         "content": `
 
 
@@ -641,10 +641,10 @@ _**Romans 8:6**_
         "id": 6,
         "title": `### **Psalms for Gratitude**`,
         "slug": "psalms-for-gratitude",
-        "description": `Deep meditative prayer for anxiety and fear, rooted in scripture.`,
-        "author": "HGb",
+        "description": `Prayers of thanksgiving and gratitude from the book of Psalms`,
+        "author": "Thanksgiving",
         "time": "2",
-        "date": "July 2, 2024",
+        "date": "Sep 22, 2024",
         "content": `
 **I will give thanks to the Lord because of his righteousness; I will sing the praises of the name of the Lord Most High.**  
 _**Psalm 7:17**_
@@ -742,10 +742,10 @@ _**Psalm 106:1**_
         "id": 7,
         "title": `### **Psalms for Strength**`,
         "slug": "psalms-for-strength",
-        "description": `Deep meditative prayer for anxiety and fear, rooted in scripture.`,
-        "author": "HGb",
+        "description": `Prayers for strength in times of weariness`,
+        "author": "Petition",
         "time": "2",
-        "date": "July 2, 2024",
+        "date": "Sep 21, 2024",
         "content": `
 
 **But I will sing of your strength, in the morning I will sing of your love;for you are my fortress, my refuge in times of trouble. You are my strength, I sing praise to you; you, God, are my fortress, my God on whom I can rely.** - _**Psalm 59:16-17**_
@@ -902,9 +902,10 @@ export const FAITH = [
         "id": 1,
         "slug": "i-am-loved-by-the-father",
         "title": `### **I am loved by the Father!**`,
-        "description": `Spirit filled confessions rooted in the revelation scripture`,
-        "author": "HGb",
-        "date": "Sep 23, 2024",
+        "description": `Spirit filled confessions on the love of God, rooted in the revelation scripture.`,
+        "author": "Faith Confession",
+        "time": "3",
+        "date": "Sep 24, 2024",
         "content": `
 
 
@@ -1051,9 +1052,10 @@ _**Lamentations 3:22**_
         "id": 2,
         "slug": "christ-is-my-wisdom",
         "title": `### **Christ is my Wisdom!**`,
-        "description": `Spirit filled confessions rooted in the revelation scripture`,
-        "author": "HGb",
-        "date": "Sep 23, 2024",
+        "description": `Declarations on Christ being our wisdom.`,
+        "author": "Declaration",
+        "time": "3",
+        "date": "Sep 24, 2024",
         "content": `
 
 
@@ -1201,8 +1203,9 @@ _**Colossians 2:2**_
         "id": 3,
         "slug": "i-am-helped-from-above",
         "title": `### **I am helped from above!**`,
-        "description": `Spirit filled confessions rooted in the revelation scripture`,
-        "author": "HGb",
+        "description": `Spirit filled confessions on divine help`,
+        "author": "Faith Confession",
+        "time": "4",
         "date": "Sep 23, 2024",
         "content": `
 
@@ -1352,8 +1355,9 @@ _**Psalm 145:14**_
         "id": 4,
         "slug": "i-am-backed-by-divine-power",
         "title": `### **I am backed by Divine Power!**`,
-        "description": `Spirit filled confessions rooted in the revelation scripture`,
-        "author": "HGb",
+        "description": `Spirit filled declarations on the Lord's backing,  rooted in the revelation scripture`,
+        "author": "Declaration",
+        "time": "4",
         "date": "Sep 23, 2024",
         "content": `
 
@@ -1503,8 +1507,9 @@ _**Matthew 19:26**_
         "id": 5,
         "slug": "i-walk-in-divine-health",
         "title": `### **I walk in Divine Health!**`,
-        "description": `Spirit filled confessions rooted in the revelation scripture`,
-        "author": "HGb",
+        "description": `Faith filled confessions on divine health, rooted in the revelation scripture`,
+        "author": "Faith Confessions",
+        "time": "4",
         "date": "Sep 23, 2024",
         "content": `
 
@@ -1625,8 +1630,9 @@ _**1 Corinthians 6:19-20**_
         "id": 6,
         "slug": "i-am-the-righteousness",
         "title": `### **I am the Righteousness of God!**`,
-        "description": `Spirit filled confessions rooted in the revelation scripture`,
-        "author": "HGb",
+        "description": `Spirit filled confessions on the righteousness of God. `,
+        "author": "Declaration",
+        "time": "3",
         "date": "Sep 23, 2024",
         "content": `
 
@@ -1718,8 +1724,9 @@ _**Romans 3:22**_
         "id": 7,
         "slug": "i-am-light",
         "title": `### **I am Light, I shine!**`,
-        "description": `Spirit filled confessions rooted in the revelation scripture`,
-        "author": "HGb",
+        "description": `Declarations on the revelation of our position as light of the world!`,
+        "author": "Declaration",
+        "time": "4",
         "date": "Sep 23, 2024",
         "content": `
 

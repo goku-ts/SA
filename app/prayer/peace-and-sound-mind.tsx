@@ -1,6 +1,6 @@
 import { useLocalSearchParams } from 'expo-router';
 import React from 'react';
-import { ScrollView, StyleSheet, useWindowDimensions, View } from 'react-native';
+import { ScrollView, StyleSheet, Text, useWindowDimensions, View } from 'react-native';
 import { ActiveLink } from '../../component/ActiveLink';
 import AppText from '../../component/AppText';
 import { Header } from '../../component/Header';
@@ -81,19 +81,35 @@ export default function Details() {
                         flexDirection: "row",
                         marginBottom: 30
                     }}>
-                        <View style={styles.author}>
-                            <RegularText>
+                        <View style={[styles.author,
+                        {
+                            backgroundColor: PRAYERS[post - 1]?.author === "Warfare" ? COLORS.red1
+                                : PRAYERS[post - 1]?.author === "Petition" ? COLORS.orange1
+                                    : PRAYERS[post - 1]?.author === "Intercession" ? COLORS.teal1
+                                        : COLORS.orange1
+                        }
+                        ]}>
+                            <Text
+                                style={{
+                                    fontFamily: "Montserrat-Regular",
+                                    fontSize: 14,
+                                    color: PRAYERS[post - 1]?.author === "Warfare" ? COLORS.red4
+                                        : PRAYERS[post - 1]?.author === "Petition" ? COLORS.orange5
+                                            : PRAYERS[post - 1]?.author === "Intercession" ? COLORS.teal9
+                                                : COLORS.orange5,
+                                }}
+                            >
                                 {PRAYERS[post - 1]?.author}
-                            </RegularText>
+                            </Text>
                         </View>
                         <View style={[styles.author, {
                             marginLeft: 20
                         }]}>
+
                             <RegularText>
-                                {PRAYERS[post - 1]?.date}
+                                {`${PRAYERS[post - 1]?.time} mins read`}
                             </RegularText>
                         </View>
-
                     </View>
 
 

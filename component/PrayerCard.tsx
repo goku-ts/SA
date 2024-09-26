@@ -119,13 +119,13 @@ export default function PrayerCard({
               }}
             >
 
-              <View style={[styles.author, { backgroundColor: COLORS.gray2 }]}>
+              <View style={[styles.author, { backgroundColor: COLORS.green1 }]}>
                 <AppText>
                   <Text
                     style={{
                       fontFamily: "Montserrat-Regular",
                       fontSize: 12,
-                      color: COLORS.gray8,
+                      color: COLORS.green8,
                     }}
                   >
                     {`${time} min`}
@@ -133,7 +133,7 @@ export default function PrayerCard({
                 </AppText>
               </View>
 
-              <View style={[styles.author, { backgroundColor: COLORS.green1, }]}>
+              {/* <View style={[styles.author, { backgroundColor: COLORS.green1, }]}>
                 <AppText>
                   <Text
                     style={{
@@ -145,7 +145,7 @@ export default function PrayerCard({
                     {date}
                   </Text>
                 </AppText>
-              </View>
+              </View> */}
               <View style={[styles.author, {
                 backgroundColor: author === "Warfare" ? COLORS.red1
                   : author === "Petition" ? COLORS.orange1
