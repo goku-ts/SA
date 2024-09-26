@@ -13,6 +13,7 @@ import AppText from "./AppText";
 import Content from "./Content";
 
 export default function PrayerCard({
+  time,
   title,
   description,
   author,
@@ -25,6 +26,7 @@ export default function PrayerCard({
   data,
   image,
 }: {
+  time?: string
   title: string;
   description: string;
   author: string;
@@ -60,8 +62,8 @@ export default function PrayerCard({
           // borderWidth: 1,
           borderRadius: 10,
           borderColor: COLORS.gray3,
-          padding: 5,
-          paddingLeft: 15,
+          padding: 15,
+          //paddingLeft: 15,
           marginTop: 10,
           //paddingHorizontal: hPadding,
         }}
@@ -136,10 +138,24 @@ export default function PrayerCard({
                     style={{
                       fontFamily: "Montserrat-Regular",
                       fontSize: 13,
-                      color: COLORS.orange4,
+                      color: COLORS.orange6,
                     }}
                   >
                     {author}
+                  </Text>
+                </AppText>
+              </View>
+
+              <View style={[styles.author, { backgroundColor: COLORS.gray2 }]}>
+                <AppText>
+                  <Text
+                    style={{
+                      fontFamily: "Montserrat-Regular",
+                      fontSize: 13,
+                      color: COLORS.gray8,
+                    }}
+                  >
+                    {`${time} min`}
                   </Text>
                 </AppText>
               </View>

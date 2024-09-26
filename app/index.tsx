@@ -91,6 +91,7 @@ export default function Prayer() {
                     description={item?.description}
                     author={item?.author}
                     date={item?.date}
+                    time={item?.time}
                   />
                 );
               })}

@@ -58,6 +58,7 @@ export const PRAYERS = [
         "slug": "psalms-for-courage",
         "description": `Deep meditative prayer for anxiety and fear, rooted in scripture.`,
         "author": "Petition",
+        "time": "2",
         "date": "July 2, 2024",
         "content": `
 
@@ -169,6 +170,7 @@ _**Psalm 34:4**_
         "slug": "psalms-for-protection",
         "description": `Deep meditative prayer for anxiety and fear, rooted in scripture.`,
         "author": "Petition",
+        "time": "2",
         "date": "July 2, 2024",
         "content": `
 
@@ -283,6 +285,7 @@ _**Psalm 34:7**_
         "slug": "psalms-for-anxiety",
         "description": `Deep meditative prayer for anxiety and fear, rooted in scripture.`,
         "author": "HGb",
+        "time": "2",
         "date": "July 2, 2024",
         "content": `
 
@@ -405,6 +408,7 @@ _**Psalm 121:3**_
         "slug": "heavenly-provision",
         "description": `Deep meditative prayer for anxiety and fear, rooted in scripture.`,
         "author": "HGb",
+        "time": "2",
         "date": "July 2, 2024",
         "content": `
 
@@ -524,6 +528,7 @@ _**2 Corinthians 9:8**_
         "slug": "peace-and-sound-mind",
         "description": `Deep meditative prayer for anxiety and fear, rooted in scripture.`,
         "author": "HGb",
+        "time": "2",
         "date": "July 2, 2024",
         "content": `
 
@@ -638,6 +643,7 @@ _**Romans 8:6**_
         "slug": "psalms-for-gratitude",
         "description": `Deep meditative prayer for anxiety and fear, rooted in scripture.`,
         "author": "HGb",
+        "time": "2",
         "date": "July 2, 2024",
         "content": `
 **I will give thanks to the Lord because of his righteousness; I will sing the praises of the name of the Lord Most High.**  
@@ -738,6 +744,7 @@ _**Psalm 106:1**_
         "slug": "psalms-for-strength",
         "description": `Deep meditative prayer for anxiety and fear, rooted in scripture.`,
         "author": "HGb",
+        "time": "2",
         "date": "July 2, 2024",
         "content": `
 
